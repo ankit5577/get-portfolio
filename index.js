@@ -18,7 +18,7 @@ app.use(function (req, res, next) { //allow cross origin requests
     next();
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 1000;
 
 app.use(express.static(path.join(__dirname, '/build')));
 
