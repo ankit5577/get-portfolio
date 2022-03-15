@@ -1,11 +1,15 @@
-const express = require("express");
-const path = require('path');
-const cors = require('cors');
+require('dotenv').config();
+const express = require("express"),
+    path = require('path'),
+    cors = require('cors');
 
 const app = express();
+
+// middlewares
 app.use(express.json());
 app.use(cors());
 
+// CORS
 app.use(function (req, res, next) { //allow cross origin requests
     res.setHeader("Access-Control-Allow-Methods", "POST, PUT, OPTIONS, DELETE, GET");
     res.header("Access-Control-Allow-Origin", "*");
@@ -14,7 +18,7 @@ app.use(function (req, res, next) { //allow cross origin requests
     next();
 });
 
-const port = process.env.PORT || 9876;
+const port = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, '/build')));
 
