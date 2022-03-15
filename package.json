@@ -1,0 +1,22 @@
+{
+  "name": "get-portfolio",
+  "version": "1.0.0",
+  "description": "get-portfolio created by https://www.aiboost.in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit5577/get-portfolio.git"
+  },
+  "keywords": [
+    "get-portfolio"
+  ],
+  "author": "ankit5577",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankit5577/get-portfolio/issues"
+  },
+  "homepage": "https://github.com/ankit5577/get-portfolio#readme"
+}
