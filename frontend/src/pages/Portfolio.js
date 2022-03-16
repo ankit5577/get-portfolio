@@ -40,14 +40,14 @@ function Portfolio() {
           <div className="self-center mx-auto h-full">
             <img
               src={developerImg}
-              className="max-w-xs mx-auto"
+              className="max-w-xs w-full mx-auto"
               alt="developer"
             />
-            <h1 className="md:text-7xl text-5xl font-bold text-gray-200 antialiased text-center">
+            <h1 className="lg:text-7xl md:text-5xl text-4xl font-bold text-gray-200 antialiased text-center">
               Ankit Kaushal
             </h1>
             <div className="flex">
-              <div className="md:text-lg p-2 mx-auto text-green-500 font-medium text-sm antialiased tracking-wider">
+              <div className="lg:text-lg p-2 mx-auto text-green-500 font-medium text-xs md:text-sm antialiased tracking-wider">
                 Full Stack Web3 | Blockchain | AWS
               </div>
             </div>
