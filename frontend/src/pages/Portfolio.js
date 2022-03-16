@@ -1,4 +1,5 @@
 import React from "react";
+import developerImg from "../assets/images/developer.svg";
 
 function Portfolio() {
   return (
@@ -34,34 +35,51 @@ function Portfolio() {
        bg-slate-500 bg-opacity-10 container max-w-7xl w-full p-8 rounded-xl mx-auto
         border-2 border-slate-800 shadow-2xl"
       >
-        {/* heading */}
-        <section id="header" className="snap-start h-screen p-8">
-          <h1 className="md:text-7xl text-3xl font-bold text-gray-200 antialiased text-center">
-            Ankit Kaushal
-          </h1>
-          <h4 className="md:text-lg text-xs antialiased font-normal text-center tracking-wide">
-            Full Stack Web3 Developer | Blockchain | AWS
-          </h4>
+        {/* front */}
+        <section id="header" className="flex snap-start min-h-screen p-8 ">
+          <div className="self-center mx-auto h-full">
+            <img
+              src={developerImg}
+              className="max-w-xs mx-auto"
+              alt="developer"
+            />
+            <h1 className="md:text-7xl text-5xl font-bold text-gray-200 antialiased text-center">
+              Ankit Kaushal
+            </h1>
+            <div className="flex">
+              <div className="md:text-lg p-2 mx-auto text-green-500 font-medium text-sm antialiased tracking-wider">
+                Full Stack Web3 | Blockchain | AWS
+              </div>
+            </div>
+          </div>
         </section>
 
         <section className="snap-start h-screen flex flex-wrap flex-row gap-2 p-8">
           <section id="education" className="p-2 flex-1">
-            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">Education</h3>
+            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">
+              Education
+            </h3>
             <div className="text-md">Angular</div>
           </section>
           <section id="education" className="p-2 flex-1">
-            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">Education</h3>
+            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">
+              Education
+            </h3>
             <div className="text-md">Angular</div>
           </section>
         </section>
 
         <section className="snap-start h-screen flex flex-wrap flex-row gap-2 p-8">
           <section id="education" className="p-2 flex-1">
-            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">Education</h3>
+            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">
+              Education
+            </h3>
             <div className="text-md">Angular</div>
           </section>
           <section id="education" className="p-2 flex-1">
-            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">Education</h3>
+            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">
+              Education
+            </h3>
             <div className="text-md">Angular</div>
           </section>
         </section>
