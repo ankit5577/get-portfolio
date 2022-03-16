@@ -1,5 +1,6 @@
 import React from "react";
 import developerImg from "../assets/images/developer.svg";
+import studyingImg from '../assets/images/studying.svg';
 
 function Portfolio() {
   return (
@@ -54,33 +55,213 @@ function Portfolio() {
           </div>
         </section>
 
-        <section className="snap-start h-screen flex flex-wrap flex-row gap-2 p-8">
+        {/* education */}
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
           <section id="education" className="p-2 flex-1">
-            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">
+            <img src={studyingImg} className="max-h-36" alt="education" />
+            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
               Education
             </h3>
-            <div className="text-md">Angular</div>
-          </section>
-          <section id="education" className="p-2 flex-1">
-            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">
-              Education
-            </h3>
-            <div className="text-md">Angular</div>
+            <div className="flex flex-col gap-2 flex-wrap">
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
+                  Chandigarh University
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Bachelors of Engineering in CSE
+                </h5>
+                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  Ludhiana Polytechnic College
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Diploma in Mechanical
+                </h5>
+                <p className="text-slate-300 font-light text-sm">2014 - 2017 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  St.Thomas, School
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Secondary | CBSE
+                </h5>
+                <p className="text-slate-300 font-light text-sm">2014 📍 Punjab, India</p>
+              </div>
+            </div>
           </section>
         </section>
 
-        <section className="snap-start h-screen flex flex-wrap flex-row gap-2 p-8">
+        {/* skills / experience */}
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
           <section id="education" className="p-2 flex-1">
-            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">
-              Education
+            <img src={studyingImg} className="max-h-36" alt="education" />
+            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
+              Experience
             </h3>
-            <div className="text-md">Angular</div>
+            <div className="flex flex-col gap-2 flex-wrap">
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
+                  Chandigarh University
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Bachelors of Engineering in CSE
+                </h5>
+                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  Ludhiana Polytechnic College
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Diploma in Mechanical Engineering
+                </h5>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  St.Thomas, School
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Secondary | CBSE
+                </h5>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+            </div>
           </section>
+        </section>
+
+        {/* Certifications / ratings / achievements */}
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
           <section id="education" className="p-2 flex-1">
-            <h3 className="md:text-4xl text-2xl tracking-wider font-medium">
-              Education
+            <img src={studyingImg} className="max-h-36" alt="education" />
+            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
+              Experience
             </h3>
-            <div className="text-md">Angular</div>
+            <div className="flex flex-col gap-2 flex-wrap">
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
+                  Chandigarh University
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Bachelors of Engineering in CSE
+                </h5>
+                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  Ludhiana Polytechnic College
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Diploma in Mechanical Engineering
+                </h5>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  St.Thomas, School
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Secondary | CBSE
+                </h5>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        {/* Projects */}
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
+          <section id="education" className="p-2 flex-1">
+            <img src={studyingImg} className="max-h-36" alt="education" />
+            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
+              Experience
+            </h3>
+            <div className="flex flex-col gap-2 flex-wrap">
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
+                  Chandigarh University
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Bachelors of Engineering in CSE
+                </h5>
+                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  Ludhiana Polytechnic College
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Diploma in Mechanical Engineering
+                </h5>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  St.Thomas, School
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Secondary | CBSE
+                </h5>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        {/* Contact me */}
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
+          <section id="education" className="p-2 flex-1">
+            <img src={studyingImg} className="max-h-36" alt="education" />
+            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
+              Experience
+            </h3>
+            <div className="flex flex-col gap-2 flex-wrap">
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
+                  Chandigarh University
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Bachelors of Engineering in CSE
+                </h5>
+                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  Ludhiana Polytechnic College
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Diploma in Mechanical Engineering
+                </h5>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+
+              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                  St.Thomas, School
+                </h4>
+                <h5 className="text-green-500 font-medium">
+                  Secondary | CBSE
+                </h5>
+                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+              </div>
+            </div>
           </section>
         </section>
       </div>
