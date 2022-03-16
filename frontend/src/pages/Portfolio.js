@@ -6,18 +6,37 @@ function Portfolio() {
       className={`snap-y snap-mandatory h-screen overflow-y-scroll overflow-x-hidden scroll-smooth
                     bg-slate-900 p-12 font-sans text-gray-300 `}
     >
-      <div className="absolute filter bg-slate-700  p-48 rounded-full blur-sm shadow-xl bg-blend-screen opacity-20"></div>
+      {/* background */}
+      <div className="absolute filter bg-slate-700 p-8 rounded-full blur-sm shadow-xl bg-blend-screen opacity-20"></div>
+      <div className="absolute transform -translate-x-12 filter bg-pink-700 p-12 rounded-full blur-sm shadow-xl bg-blend-overlay opacity-10"></div>
+      <div className="absolute filter bg-slate-700 p-8 rounded-full blur-sm shadow-xl bg-blend-screen opacity-20"></div>
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="absolute bottom-0 right-20 h-60 w-64 text-zinc-600 filter blur-[2px] bg-blend-multiply"
+      >
+        <path d="M15 4H21V10H15V4Z" fill="currentColor" />
+        <path
+          d="M3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12H17C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12H3Z"
+          fill="currentColor"
+        />
+        <path
+          d="M6 10C7.65685 10 9 8.65685 9 7C9 5.34315 7.65685 4 6 4C4.34315 4 3 5.34315 3 7C3 8.65685 4.34315 10 6 10Z"
+          fill="currentColor"
+        />
+      </svg>
+
       <div
         className=" relative filter backdrop-blur-xl
        bg-slate-500 bg-opacity-10 container max-w-7xl p-8 rounded-xl mx-auto
         border-2 border-slate-800 shadow-2xl"
       >
         {/* heading */}
-        <section
-          id="header"
-          className="snap-start h-screen  p-4"
-        >
-          <h1 className="text-4xl font-bold text-gray-200 antialiased text-center">
+        <section id="header" className="snap-start h-screen p-8">
+          <h1 className="text-7xl font-bold text-gray-200 antialiased text-center">
             Ankit Kaushal
           </h1>
           <h4 className="text-lg antialiased font-normal text-center tracking-wide">
@@ -25,7 +44,7 @@ function Portfolio() {
           </h4>
         </section>
 
-        <section className="snap-start h-screen flex flex-wrap flex-row gap-2">
+        <section className="snap-start h-screen flex flex-wrap flex-row gap-2 p-8">
           <section id="education" className="p-2 flex-1">
             <h3 className="text-4xl tracking-wider font-medium">Education</h3>
             <div className="">Angular</div>
@@ -36,7 +55,7 @@ function Portfolio() {
           </section>
         </section>
 
-        <section className="snap-start h-screen flex flex-wrap flex-row gap-2">
+        <section className="snap-start h-screen flex flex-wrap flex-row gap-2 p-8">
           <section id="education" className="p-2 flex-1">
             <h3 className="text-4xl tracking-wider font-medium">Education</h3>
             <div className="">Angular</div>
