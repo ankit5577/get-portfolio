@@ -33,7 +33,7 @@ function Portfolio() {
 
       <div
         className=" relative filter backdrop-blur-xl
-       bg-slate-500 bg-opacity-10 container max-w-7xl w-full p-8 rounded-xl mx-auto
+       bg-slate-500 bg-opacity-10 container max-w-7xl w-full p-4 md:p-8 rounded-xl mx-auto
         border-2 border-slate-800 shadow-2xl"
       >
         {/* front */}
@@ -68,18 +68,18 @@ function Portfolio() {
                   Chandigarh University
                 </h4>
                 <h5 className="text-green-500 font-medium">
-                  Bachelors of Engineering in CSE
+                  Bachelors of Engineering <span className="text-slate-400">|</span> CSE
                 </h5>
                 <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <p className="text-slate-300 font-light text-sm">2018 - 2021 📍 Punjab, India</p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  Ludhiana Polytechnic College
+                  Ludhiana Polytechnic
                 </h4>
                 <h5 className="text-green-500 font-medium">
-                  Diploma in Mechanical
+                  Diploma <span className="text-slate-400">|</span> Mechanical
                 </h5>
                 <p className="text-slate-300 font-light text-sm">2014 - 2017 📍 Punjab, India</p>
               </div>
@@ -89,7 +89,7 @@ function Portfolio() {
                   St.Thomas, School
                 </h4>
                 <h5 className="text-green-500 font-medium">
-                  Secondary | CBSE
+                  Secondary <span className="text-slate-400">|</span> CBSE
                 </h5>
                 <p className="text-slate-300 font-light text-sm">2014 📍 Punjab, India</p>
               </div>
