@@ -2,6 +2,9 @@ import React from "react";
 import developerImg from "../assets/images/developer.svg";
 import studyingImg from "../assets/images/studying.svg";
 
+import { AiOutlineArrowDown } from "react-icons/ai";
+import BlockRevealAnimation from "react-block-reveal-animation";
+
 function Portfolio() {
   return (
     <div
@@ -37,34 +40,50 @@ function Portfolio() {
         border-2 border-slate-800 shadow-2xl"
       >
         {/* front */}
-        <section id="header" className="flex snap-start min-h-screen p-8 ">
-          <div className="self-center mx-auto h-full">
-            <img
-              src={developerImg}
-              className="max-w-xs w-full mx-auto"
-              alt="developer"
-            />
-            <h1 className="lg:text-7xl md:text-5xl text-4xl font-bold text-gray-200 antialiased text-center">
-              Ankit Kaushal
-            </h1>
-            <div className="flex">
-              <div className="lg:text-lg p-2 mx-auto text-green-500 font-medium text-xs md:text-sm antialiased tracking-wider">
-                Full Stack Web3 | Blockchain | AWS
+        <section
+          id="header"
+          className="flex flex-col snap-start min-h-screen p-8 gap-4"
+        >
+          <div className="flex-1 flex mx-auto h-full">
+            <div className="my-auto self-center h-full">
+              <img
+                src={developerImg}
+                className="max-w-xs w-full mx-auto"
+                alt="developer"
+              />
+              <h1 className="lg:text-7xl md:text-5xl text-4xl font-bold text-gray-200 antialiased text-center">
+                Ankit Kaushal
+              </h1>
+              <div className="flex">
+                <div className="lg:text-lg p-2 mx-auto text-green-500 font-medium text-xs md:text-sm antialiased tracking-wider">
+                  <BlockRevealAnimation
+                    delay={0.2}
+                    duration={1}
+                    color="#44B508"
+                  >
+                    Full Stack Web3 | Blockchain | AWS
+                  </BlockRevealAnimation>
+                </div>
               </div>
             </div>
+          </div>
+          <div className="min-h-[100px] animate animate-bounce">
+            <AiOutlineArrowDown className="mx-auto text-4xl shadow-xl shadow-green-900 rounded-full bg-slate-800 p-2" />
           </div>
         </section>
 
         {/* education */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
           <section id="education" className="p-2 flex-1">
-            <img src={studyingImg} className="max-h-36" alt="education" />
-            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
-              Education
-            </h3>
+            <BlockRevealAnimation delay={0.2} duration={1} color="#44B508">
+              <img src={studyingImg} className="max-h-36" alt="education" />
+              <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
+                Education
+              </h3>
+            </BlockRevealAnimation>
             <div className="relative col-span-12 sm:px-4 space-y-6 sm:col-span-9">
               <div className="col-span-12 space-y-12 relative sm:px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-slate-700">
-                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 before:dark:animate-pulse shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                   <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
                     Chandigarh University
                   </h4>
@@ -83,7 +102,7 @@ function Portfolio() {
                   </p>
                 </div>
 
-                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 before:dark:animate-pulse shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                   <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                     Ludhiana Polytechnic
                   </h4>
@@ -95,7 +114,7 @@ function Portfolio() {
                   </p>
                 </div>
 
-                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 before:dark:animate-pulse shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                   <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                     St.Thomas, School
                   </h4>
