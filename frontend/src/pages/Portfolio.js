@@ -1,6 +1,6 @@
 import React from "react";
 import developerImg from "../assets/images/developer.svg";
-import studyingImg from '../assets/images/studying.svg';
+import studyingImg from "../assets/images/studying.svg";
 
 function Portfolio() {
   return (
@@ -62,36 +62,50 @@ function Portfolio() {
             <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
               Education
             </h3>
-            <div className="flex flex-col gap-2 flex-wrap">
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
-                  Chandigarh University
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Bachelors of Engineering <span className="text-slate-400">|</span> CSE
-                </h5>
-                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
-                <p className="text-slate-300 font-light text-sm">2018 - 2021 📍 Punjab, India</p>
-              </div>
+            <div className="relative col-span-12 sm:px-4 space-y-6 sm:col-span-9">
+              <div className="col-span-12 space-y-12 relative sm:px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-slate-700">
+                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                  <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
+                    Chandigarh University
+                  </h4>
+                  <h5 className="text-green-500 font-medium">
+                    Bachelors of Engineering{" "}
+                    <span className="text-slate-400">|</span> CSE
+                  </h5>
+                  <h6 className="text-sm">
+                    CGPA:{" "}
+                    <span className="text-green-500 font-medium tracking-wider">
+                      6.9
+                    </span>
+                  </h6>
+                  <p className="text-slate-300 font-light text-sm">
+                    2018 - 2021 📍 Punjab, India
+                  </p>
+                </div>
 
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  Ludhiana Polytechnic
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Diploma <span className="text-slate-400">|</span> Mechanical
-                </h5>
-                <p className="text-slate-300 font-light text-sm">2014 - 2017 📍 Punjab, India</p>
-              </div>
+                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                  <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                    Ludhiana Polytechnic
+                  </h4>
+                  <h5 className="text-green-500 font-medium">
+                    Diploma <span className="text-slate-400">|</span> Mechanical
+                  </h5>
+                  <p className="text-slate-300 font-light text-sm">
+                    2014 - 2017 📍 Punjab, India
+                  </p>
+                </div>
 
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  St.Thomas, School
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Secondary <span className="text-slate-400">|</span> CBSE
-                </h5>
-                <p className="text-slate-300 font-light text-sm">2014 📍 Punjab, India</p>
+                <div className="sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-green-600 shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
+                  <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
+                    St.Thomas, School
+                  </h4>
+                  <h5 className="text-green-500 font-medium">
+                    Secondary <span className="text-slate-400">|</span> CBSE
+                  </h5>
+                  <p className="text-slate-300 font-light text-sm">
+                    2014 📍 Punjab, India
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -112,8 +126,15 @@ function Portfolio() {
                 <h5 className="text-green-500 font-medium">
                   Bachelors of Engineering in CSE
                 </h5>
-                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <h6 className="text-sm">
+                  CGPA:{" "}
+                  <span className="text-green-500 font-medium tracking-wider">
+                    6.9
+                  </span>
+                </h6>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
@@ -123,17 +144,19 @@ function Portfolio() {
                 <h5 className="text-green-500 font-medium">
                   Diploma in Mechanical Engineering
                 </h5>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   St.Thomas, School
                 </h4>
-                <h5 className="text-green-500 font-medium">
-                  Secondary | CBSE
-                </h5>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <h5 className="text-green-500 font-medium">Secondary | CBSE</h5>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
             </div>
           </section>
@@ -154,8 +177,15 @@ function Portfolio() {
                 <h5 className="text-green-500 font-medium">
                   Bachelors of Engineering in CSE
                 </h5>
-                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <h6 className="text-sm">
+                  CGPA:{" "}
+                  <span className="text-green-500 font-medium tracking-wider">
+                    6.9
+                  </span>
+                </h6>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
@@ -165,17 +195,19 @@ function Portfolio() {
                 <h5 className="text-green-500 font-medium">
                   Diploma in Mechanical Engineering
                 </h5>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   St.Thomas, School
                 </h4>
-                <h5 className="text-green-500 font-medium">
-                  Secondary | CBSE
-                </h5>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <h5 className="text-green-500 font-medium">Secondary | CBSE</h5>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
             </div>
           </section>
@@ -196,8 +228,15 @@ function Portfolio() {
                 <h5 className="text-green-500 font-medium">
                   Bachelors of Engineering in CSE
                 </h5>
-                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <h6 className="text-sm">
+                  CGPA:{" "}
+                  <span className="text-green-500 font-medium tracking-wider">
+                    6.9
+                  </span>
+                </h6>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
@@ -207,17 +246,19 @@ function Portfolio() {
                 <h5 className="text-green-500 font-medium">
                   Diploma in Mechanical Engineering
                 </h5>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   St.Thomas, School
                 </h4>
-                <h5 className="text-green-500 font-medium">
-                  Secondary | CBSE
-                </h5>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <h5 className="text-green-500 font-medium">Secondary | CBSE</h5>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
             </div>
           </section>
@@ -238,8 +279,15 @@ function Portfolio() {
                 <h5 className="text-green-500 font-medium">
                   Bachelors of Engineering in CSE
                 </h5>
-                <h6 className="text-sm">CGPA: <span className="text-green-500 font-medium tracking-wider">6.9</span></h6>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <h6 className="text-sm">
+                  CGPA:{" "}
+                  <span className="text-green-500 font-medium tracking-wider">
+                    6.9
+                  </span>
+                </h6>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
@@ -249,17 +297,19 @@ function Portfolio() {
                 <h5 className="text-green-500 font-medium">
                   Diploma in Mechanical Engineering
                 </h5>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
 
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   St.Thomas, School
                 </h4>
-                <h5 className="text-green-500 font-medium">
-                  Secondary | CBSE
-                </h5>
-                <p className="text-slate-300 font-light text-sm">May 2018 - July 2021 📍 Punjab, India</p>
+                <h5 className="text-green-500 font-medium">Secondary | CBSE</h5>
+                <p className="text-slate-300 font-light text-sm">
+                  May 2018 - July 2021 📍 Punjab, India
+                </p>
               </div>
             </div>
           </section>
