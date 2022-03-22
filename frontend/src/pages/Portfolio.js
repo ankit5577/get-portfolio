@@ -100,12 +100,13 @@ function Portfolio() {
         </section>
 
         {/* education */}
-        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-8">
-          <section id="education">
-            <img src={studyingImg} className="md:max-h-36" alt="education" />
-            <h3 className="md:text-5xl text-3xl tracking-wider font-medium mb-4">
+
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
+        <section id="education" className="md:p-2 flex-1">
+              <img src={studyingImg} className="h-16 md:max-h-24" alt="education" />
+              <h3 className="flex self-center mb-4 align-bottom md:text-5xl text-2xl tracking-wider font-medium">
               Education
-            </h3>
+              </h3>
 
             <div className="relative flex flex-col md:flex-row flex-wrap">
               <div className="flex-3 md:self-center align-middle w-[200px] lg:text-3xl lg:w-[300px] md:p-4 text-2xl font-bold text-slate-500">
@@ -169,12 +170,12 @@ function Portfolio() {
         </section>
 
         {/* skills / experience */}
-        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
-          <section id="experience" className="p-2 flex-1">
-            <div className="flex flex-row gap-4">
-              <img src={experienceImg} className="max-h-24" alt="education" />
-              <h3 className="flex self-center align-bottom md:text-5xl text-3xl tracking-wider font-medium">
-                Experience
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
+        <section id="experience" className="md:p-2 flex-1">
+            <div className="flex flex-row gap-4 my-4">
+              <img src={experienceImg} className="h-16 md:max-h-24" alt="education" />
+              <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
+              Experience
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
