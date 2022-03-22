@@ -244,7 +244,7 @@ function Portfolio() {
                   <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
                   https://www.coursera.org/
                   </span>
-                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md">
                     <span className="text-slate-500 text-xs">ID: </span>MHUSZPYR573T <span className="text-slate-300 font-light text-xs"> | June 15, 2020</span>
                   </h5>
                 </div>
@@ -263,7 +263,7 @@ function Portfolio() {
                   <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
                   https://www.coursera.org/
                   </span>
-                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md">
                     <span className="text-slate-500 text-xs">ID: </span>3ANLTHW9HCN5 <span className="text-slate-300 font-light text-xs"> | April 6, 2020</span>
                   </h5>
                 </div>
