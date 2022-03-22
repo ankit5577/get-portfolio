@@ -73,22 +73,22 @@ function Portfolio() {
         </section>
 
         {/* education */}
-        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
-          <section id="education" className="p-2 flex-1">
-            <img src={studyingImg} className="max-h-36" alt="education" />
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-8">
+          <section id="education">
+            <img src={studyingImg} className="md:max-h-36" alt="education" />
             <h3 className="md:text-5xl text-3xl tracking-wider font-medium mb-4">
               Education
             </h3>
 
-            <div className="relative flex flex-row gap-2 flex-wrap">
-              <div className="flex-3 self-center align-middle w-[200px] lg:text-3xl lg:w-[300px] md:p-4 text-2xl font-bold text-center text-slate-500">
+            <div className="relative flex flex-col md:flex-row flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[200px] lg:text-3xl lg:w-[300px] md:p-4 text-2xl font-bold text-slate-500">
                 <span>2018 - 2021</span>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[7px] -top-[2px] animate-ping px-[7px] py-[7px] bg-teal-400 rounded-full"></span>
                 <span className="absolute -left-[5px] top-0  px-[5px] py-[5px] bg-teal-700 rounded-full"></span>
               </div>
-              <div className="ml-4 flex-1 p-4 bg-slate-700 rounded-lg backdrop-blur-2xl ">
+              <div className="md:ml-4 flex-1 p-4 bg-slate-700 rounded-lg backdrop-blur-2xl ">
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
                   Chandigarh University
                 </h4>
@@ -105,14 +105,14 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="relative my-4 flex flex-row gap-2 flex-wrap">
-              <div className="flex-3 self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-center text-slate-500">
-                <p className="text-center">2014 - 2017</p>
+            <div className="relative my-4 flex flex-col md:flex-row flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-slate-500">
+                <p>2014 - 2017</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
-              <div className="flex-1 ml-4 p-4 bg-slate-800/3 rounded-lg backdrop-blur-md">
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   Ludhiana Polytechnic
                 </h4>
@@ -122,14 +122,14 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="relative flex flex-row gap-2 flex-wrap">
-              <div className="flex-3 self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-center text-slate-500">
-                <span>XXXX - 2014</span>
+            <div className="relative flex flex-col md:flex-row flex-wrap">
+            <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-slate-500">
+                <p>XXXX - 2014</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
-              <div className="flex-1 ml-4 p-4 bg-slate-800/3 rounded-lg backdrop-blur-md">
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   St.Thomas, School
                 </h4>
