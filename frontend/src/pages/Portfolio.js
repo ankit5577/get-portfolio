@@ -109,13 +109,13 @@ function Portfolio() {
 
             <div className="relative flex flex-col md:flex-row flex-wrap">
               <div className="flex-3 md:self-center align-middle w-[200px] lg:text-3xl lg:w-[300px] md:p-4 text-2xl font-bold text-slate-500">
-                <span>2018 - 2021</span>
+                <span className="text-slate-400">2018 - 2021</span>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[7px] -top-[2px] animate-ping px-[7px] py-[7px] bg-teal-400 rounded-full"></span>
                 <span className="absolute -left-[5px] top-0  px-[5px] py-[5px] bg-teal-700 rounded-full"></span>
               </div>
-              <div className="md:ml-4 flex-1 p-4 bg-slate-700 rounded-lg backdrop-blur-2xl ">
+              <div className="md:ml-4 flex-1 p-4 bg-slate-700 shadow-xl rounded-lg backdrop-blur-2xl ">
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
                   Chandigarh University
                 </h4>
@@ -134,12 +134,12 @@ function Portfolio() {
 
             <div className="relative my-4 flex flex-col md:flex-row flex-wrap">
               <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-slate-500">
-                <p>2014 - 2017</p>
+                <p className="text-slate-400">2014 - 2017</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
-              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg backdrop-blur-md">
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   Ludhiana Polytechnic
                 </h4>
@@ -151,12 +151,12 @@ function Portfolio() {
 
             <div className="relative flex flex-col md:flex-row flex-wrap">
               <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-slate-500">
-                <p>XXXX - 2014</p>
+                <p className="text-slate-400">XXXX - 2014</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
-              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg backdrop-blur-md">
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   St.Thomas, School
                 </h4>
@@ -184,7 +184,7 @@ function Portfolio() {
                 rel="noreferrer"
                 className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg my-4 flex flex-row gap-2"
               >
-                <div className="max-w-[100px] p-2">
+                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
                   <img
                     src="https://aiboost.in/assets/img/logo-circle.png"
                     className="bg-cover"
@@ -215,15 +215,15 @@ function Portfolio() {
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
           <section id="education" className="p-2 flex-1">
             <div className="flex flex-row gap-4 my-4">
-              <img src={skillsImg} className="max-h-24" alt="education" />
-              <h3 className="flex self-center align-bottom md:text-5xl text-3xl tracking-wider font-medium">
+              <img src={skillsImg} className="h-16 md:max-h-24" alt="education" />
+              <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
                 Skills
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
             <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
               <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
-                  <p>Core</p>
+                  <p className="text-green-600 md:text-slate-400">Core</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
@@ -247,7 +247,7 @@ function Portfolio() {
 
               <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
               <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
-                  <p>Web</p>
+                  <p className="text-green-600 md:text-slate-400">Web</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
@@ -271,7 +271,7 @@ function Portfolio() {
 
               <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
-                  <p>Blockchain</p>
+                  <p className="text-green-600 md:text-slate-400">Blockchain</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
@@ -295,7 +295,7 @@ function Portfolio() {
 
               <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
-                  <p>Tools</p>
+                  <p className="text-green-600 md:text-slate-400">Tools</p>
                 </div>
                 
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
@@ -319,7 +319,7 @@ function Portfolio() {
 
               <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
-                  <p>Database</p>
+                  <p className="text-green-600 md:text-slate-400">Database</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
@@ -335,7 +335,7 @@ function Portfolio() {
 
               <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
-                  <p>Cloud</p>
+                  <p className="text-green-600 md:text-slate-400">Cloud</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
