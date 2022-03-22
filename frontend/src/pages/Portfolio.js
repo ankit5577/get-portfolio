@@ -3,6 +3,7 @@ import developerImg from "../assets/images/developer.svg";
 import studyingImg from "../assets/images/studying.svg";
 
 import experienceImg from "../assets/images/experience.svg";
+import certificationImg from "../assets/images/certification1.svg";
 import skillsImg from "../assets/images/skills.svg";
 
 import { AiOutlineArrowDown } from "react-icons/ai";
@@ -173,8 +174,8 @@ function Portfolio() {
         </section>
 
         {/* skills / experience */}
-        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
-          <section id="experience" className="md:p-2 flex-1">
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 md:py-8">
+          <section id="experience" className="md:p-2">
             <div className="flex flex-row gap-4 my-4">
               <img
                 src={experienceImg}
@@ -215,6 +216,58 @@ function Portfolio() {
                   </p>
                 </div>
               </a>
+            </div>
+          </section>
+
+          <section id="experience" className="md:p-2">
+            <div className="flex flex-row gap-2">
+              <img
+                src={certificationImg}
+                className="h-16 md:max-h-24"
+                alt="education"
+              />
+              <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
+                Certifications
+              </h3>
+            </div>
+            <div className="flex flex-col gap-2 flex-wrap">
+              <a
+                href="https://www.coursera.org/account/accomplishments/specialization/MHUSZPYR573T"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg my-4 flex flex-row gap-2"
+              >
+                <div className="">
+                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                    IBM AI Engineering<span className="text-xs text-green-500"> - IBM</span>
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
+                  https://www.coursera.org/
+                  </span>
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
+                    <span className="text-slate-500 text-xs">ID: </span>MHUSZPYR573T <span className="text-slate-300 font-light text-xs"> | June 15, 2020</span>
+                  </h5>
+                </div>
+              </a>
+
+              <a
+                href="https://www.coursera.org/account/accomplishments/specialization/3ANLTHW9HCN5"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg"
+              >
+                <div className="">
+                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                    UI/UX Design Specialization<span className="text-xs text-green-500"> - CalArts</span>
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
+                  https://www.coursera.org/
+                  </span>
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
+                    <span className="text-slate-500 text-xs">ID: </span>3ANLTHW9HCN5 <span className="text-slate-300 font-light text-xs"> | April 6, 2020</span>
+                  </h5>
+                </div>
+              </a>  
             </div>
           </section>
         </section>
