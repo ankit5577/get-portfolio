@@ -81,10 +81,10 @@ function Portfolio() {
             </h3>
 
             <div className="relative flex flex-row gap-2 flex-wrap">
-              <div className="flex-3 hidden md:block self-center align-middle w-[200px] lg:text-3xl lg:w-[300px] p-4 text-2xl font-bold text-center text-slate-500">
+              <div className="flex-3 self-center align-middle w-[200px] lg:text-3xl lg:w-[300px] md:p-4 text-2xl font-bold text-center text-slate-500">
                 <span>2018 - 2021</span>
               </div>
-              <div className="relative border-l border-slate-300">
+              <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[7px] -top-[2px] animate-ping px-[7px] py-[7px] bg-teal-400 rounded-full"></span>
                 <span className="absolute -left-[5px] top-0  px-[5px] py-[5px] bg-teal-700 rounded-full"></span>
               </div>
@@ -106,7 +106,7 @@ function Portfolio() {
             </div>
 
             <div className="relative my-4 flex flex-row gap-2 flex-wrap">
-              <div className="flex-3 self-center align-middle w-[200px] p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-center text-slate-500">
+              <div className="flex-3 self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-center text-slate-500">
                 <p className="text-center">2014 - 2017</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
@@ -123,7 +123,7 @@ function Portfolio() {
             </div>
 
             <div className="relative flex flex-row gap-2 flex-wrap">
-              <div className="flex-3 self-center align-middle w-[200px] p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-center text-slate-500">
+              <div className="flex-3 self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-center text-slate-500">
                 <span>XXXX - 2014</span>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
