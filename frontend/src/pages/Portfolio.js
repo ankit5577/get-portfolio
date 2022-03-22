@@ -2,6 +2,9 @@ import React from "react";
 import developerImg from "../assets/images/developer.svg";
 import studyingImg from "../assets/images/studying.svg";
 
+import experienceImg from "../assets/images/experience.svg";
+import skillsImg from "../assets/images/skills.svg";
+
 import { AiOutlineArrowDown } from "react-icons/ai";
 import BlockRevealAnimation from "react-block-reveal-animation";
 
@@ -93,8 +96,8 @@ function Portfolio() {
                   Chandigarh University
                 </h4>
                 <h5 className="text-green-500 font-medium text-sm tracking-wide antialiased">
-                  BE{" "}
-                  <span className="text-slate-400">|</span> Computer Science Engineering
+                  BE <span className="text-slate-400">|</span> Computer Science
+                  Engineering
                 </h5>
                 <h6 className="text-sm">
                   CGPA:{" "}
@@ -123,7 +126,7 @@ function Portfolio() {
             </div>
 
             <div className="relative flex flex-col md:flex-row flex-wrap">
-            <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-slate-500">
+              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[300px] font-bold text-slate-500">
                 <p>XXXX - 2014</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
@@ -144,10 +147,50 @@ function Portfolio() {
         {/* skills / experience */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
           <section id="education" className="p-2 flex-1">
-            <img src={studyingImg} className="max-h-36" alt="education" />
-            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
-              Experience
-            </h3>
+            <div className="flex flex-row gap-4">
+              <img src={experienceImg} className="max-h-24" alt="education" />
+              <h3 className="flex self-center align-bottom md:text-5xl text-3xl tracking-wider font-medium">
+                Experience
+              </h3>
+            </div>
+            <div className="flex flex-col gap-2 flex-wrap">
+              <a
+                href="https://www.aiboost.in/"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg my-4 flex flex-row gap-2"
+              >
+                <div className="max-w-[100px] p-2">
+                  <img
+                    src="https://aiboost.in/assets/img/logo-circle.png"
+                    className="bg-cover"
+                    alt="aiboost logo"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                    AiBoost
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                    https://www.aiboost.in/
+                  </span>
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
+                    Founder | Full Stack Web3 Developer
+                  </h5>
+
+                  <p className="text-slate-300 font-light text-sm">
+                    Aug 2021 - present
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div className="flex flex-row gap-4 my-2">
+              <img src={skillsImg} className="max-h-24" alt="education" />
+              <h3 className="flex self-center align-bottom md:text-5xl text-3xl tracking-wider font-medium">
+                Skills
+              </h3>
+            </div>
             <div className="flex flex-col gap-2 flex-wrap">
               <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
@@ -162,28 +205,6 @@ function Portfolio() {
                     6.9
                   </span>
                 </h6>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
-
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  Ludhiana Polytechnic College
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Diploma in Mechanical Engineering
-                </h5>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
-
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  St.Thomas, School
-                </h4>
-                <h5 className="text-green-500 font-medium">Secondary | CBSE</h5>
                 <p className="text-slate-300 font-light text-sm">
                   May 2018 - July 2021 📍 Punjab, India
                 </p>
