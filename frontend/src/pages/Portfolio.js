@@ -176,7 +176,7 @@ function Portfolio() {
         {/* skills / experience */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 md:py-8">
           <section id="experience" className="md:p-2">
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-row gap-4 my-2">
               <img
                 src={experienceImg}
                 className="h-16 md:max-h-24"
