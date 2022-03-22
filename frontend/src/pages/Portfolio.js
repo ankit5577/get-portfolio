@@ -176,7 +176,7 @@ function Portfolio() {
         {/* skills / experience */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 md:py-8">
           <section id="experience" className="md:p-2">
-            <div className="flex flex-row gap-4 my-4">
+            <div className="flex flex-row gap-4">
               <img
                 src={experienceImg}
                 className="h-16 md:max-h-24"
@@ -208,7 +208,7 @@ function Portfolio() {
                     https://www.aiboost.in/
                   </span>
                   <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
-                    Founder | Full Stack Web3 Developer
+                    Founder | Full Stack Web3 <span className="hidden md:inline-block">Developer</span> 
                   </h5>
 
                   <p className="text-slate-300 font-light text-sm">
@@ -219,7 +219,7 @@ function Portfolio() {
             </div>
           </section>
 
-          <section id="experience" className="md:p-2">
+          <section id="certifications" className="md:p-2">
             <div className="flex flex-row gap-2">
               <img
                 src={certificationImg}
@@ -258,7 +258,7 @@ function Portfolio() {
               >
                 <div className="">
                   <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
-                    UI/UX Design Specialization<span className="text-xs text-green-500"> - CalArts</span>
+                    UI/UX Design <span className="hidden md:inline-block">Specialization</span><span className="text-xs text-green-500"> - CalArts</span>
                   </h4>
                   <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
                   https://www.coursera.org/
