@@ -8,6 +8,30 @@ import skillsImg from "../assets/images/skills.svg";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import BlockRevealAnimation from "react-block-reveal-animation";
 
+// logo
+import {
+  FaPython,
+  FaAngular,
+  FaReact,
+  FaAws,
+  FaHtml5,
+  FaNodeJs,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import {
+  SiTypescript,
+  SiMaterialdesign,
+  SiTailwindcss,
+  SiHeroku,
+  SiPostgresql,
+  SiMongodb,
+  SiPostman,
+  SiExpress,
+  SiSolidity,
+} from "react-icons/si";
+import { GrDocker, GrReactjs } from "react-icons/gr";
+import { AiFillGithub } from "react-icons/ai";
+
 function Portfolio() {
   return (
     <div
@@ -146,7 +170,7 @@ function Portfolio() {
 
         {/* skills / experience */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
-          <section id="education" className="p-2 flex-1">
+          <section id="experience" className="p-2 flex-1">
             <div className="flex flex-row gap-4">
               <img src={experienceImg} className="max-h-24" alt="education" />
               <h3 className="flex self-center align-bottom md:text-5xl text-3xl tracking-wider font-medium">
@@ -184,30 +208,145 @@ function Portfolio() {
                 </div>
               </a>
             </div>
+          </section>
+        </section>
 
-            <div className="flex flex-row gap-4 my-2">
+        {/* Skills */}
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
+          <section id="education" className="p-2 flex-1">
+            <div className="flex flex-row gap-4 my-4">
               <img src={skillsImg} className="max-h-24" alt="education" />
               <h3 className="flex self-center align-bottom md:text-5xl text-3xl tracking-wider font-medium">
                 Skills
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
-                  Chandigarh University
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Bachelors of Engineering in CSE
-                </h5>
-                <h6 className="text-sm">
-                  CGPA:{" "}
-                  <span className="text-green-500 font-medium tracking-wider">
-                    6.9
-                  </span>
-                </h6>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
+            <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
+                  <p>Core</p>
+                </div>
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Python</p>
+                    <FaPython className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Javascript</p>
+                    <IoLogoJavascript className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Node</p>
+                    <FaNodeJs className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Typescript</p>
+                    <SiTypescript className="text-xl" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
+                  <p>Web</p>
+                </div>
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Angular</p>
+                    <FaAngular className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>ReactJS</p>
+                    <GrReactjs className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>ExpressJS</p>
+                    <SiExpress className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>TailwindCss</p>
+                    <SiTailwindcss className="text-xl" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
+                <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
+                  <p>Blockchain</p>
+                </div>
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Solidity</p>
+                    <SiSolidity className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Truffle</p>
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Brownie</p>
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Hardhat</p>
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Web3</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
+                <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
+                  <p>Tools</p>
+                </div>
+                
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Docker</p>
+                    <GrDocker className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Git</p>
+                    <AiFillGithub className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Postman</p>
+                    <SiPostman className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Ganache</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
+                <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
+                  <p>Database</p>
+                </div>
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>MongoDb</p>
+                    <SiMongodb className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>PostgreSQL</p>
+                    <SiPostgresql className="text-xl" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
+                <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-2xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
+                  <p>Cloud</p>
+                </div>
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>AWS</p>
+                    <FaAws className="text-xl" />
+                  </div>
+                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                    <p>Heroku</p>
+                    <SiHeroku className="text-xl" />
+                  </div>
+                </div>
               </div>
             </div>
           </section>
