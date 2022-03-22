@@ -92,9 +92,9 @@ function Portfolio() {
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
                   Chandigarh University
                 </h4>
-                <h5 className="text-green-500 font-medium">
-                  Bachelors of Engineering{" "}
-                  <span className="text-slate-400">|</span> CSE
+                <h5 className="text-green-500 font-medium text-sm tracking-wide antialiased">
+                  BE{" "}
+                  <span className="text-slate-400">|</span> Computer Science Engineering
                 </h5>
                 <h6 className="text-sm">
                   CGPA:{" "}
@@ -116,7 +116,7 @@ function Portfolio() {
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   Ludhiana Polytechnic
                 </h4>
-                <h5 className="text-green-500 font-medium">
+                <h5 className="text-green-500 font-medium text-sm tracking-wide antialiased">
                   Diploma <span className="text-slate-400">|</span> Mechanical
                 </h5>
               </div>
@@ -133,7 +133,7 @@ function Portfolio() {
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
                   St.Thomas, School
                 </h4>
-                <h5 className="text-green-500 font-medium">
+                <h5 className="text-green-500 font-medium text-sm tracking-wide antialiased">
                   Secondary <span className="text-slate-400">|</span> CBSE
                 </h5>
               </div>
