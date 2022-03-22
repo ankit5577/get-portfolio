@@ -226,19 +226,19 @@ function Portfolio() {
                   <p className="text-green-600 md:text-slate-400">Core</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Python</p>
                     <FaPython className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Javascript</p>
                     <IoLogoJavascript className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Node</p>
                     <FaNodeJs className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Typescript</p>
                     <SiTypescript className="text-xl" />
                   </div>
@@ -250,19 +250,19 @@ function Portfolio() {
                   <p className="text-green-600 md:text-slate-400">Web</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Angular</p>
                     <FaAngular className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>ReactJS</p>
                     <GrReactjs className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>ExpressJS</p>
                     <SiExpress className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>TailwindCss</p>
                     <SiTailwindcss className="text-xl" />
                   </div>
@@ -274,20 +274,20 @@ function Portfolio() {
                   <p className="text-green-600 md:text-slate-400">Blockchain</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Solidity</p>
                     <SiSolidity className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Truffle</p>
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Brownie</p>
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Hardhat</p>
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Web3</p>
                   </div>
                 </div>
@@ -299,19 +299,19 @@ function Portfolio() {
                 </div>
                 
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Docker</p>
                     <GrDocker className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Git</p>
                     <AiFillGithub className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Postman</p>
                     <SiPostman className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Ganache</p>
                   </div>
                 </div>
@@ -322,11 +322,11 @@ function Portfolio() {
                   <p className="text-green-600 md:text-slate-400">Database</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>MongoDb</p>
                     <SiMongodb className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>PostgreSQL</p>
                     <SiPostgresql className="text-xl" />
                   </div>
@@ -338,11 +338,11 @@ function Portfolio() {
                   <p className="text-green-600 md:text-slate-400">Cloud</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>AWS</p>
                     <FaAws className="text-xl" />
                   </div>
-                  <div className="flex flex-row gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Heroku</p>
                     <SiHeroku className="text-xl" />
                   </div>
