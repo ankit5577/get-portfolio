@@ -12,7 +12,6 @@ import BlockRevealAnimation from "react-block-reveal-animation";
 import {
   FaPython,
   FaAngular,
-  FaReact,
   FaAws,
   FaHtml5,
   FaNodeJs,
@@ -102,11 +101,15 @@ function Portfolio() {
         {/* education */}
 
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
-        <section id="education" className="md:p-2 flex-1">
-              <img src={studyingImg} className="h-16 md:max-h-24" alt="education" />
-              <h3 className="flex self-center mb-4 align-bottom md:text-5xl text-2xl tracking-wider font-medium">
+          <section id="education" className="md:p-2 flex-1">
+            <img
+              src={studyingImg}
+              className="h-16 md:max-h-24"
+              alt="education"
+            />
+            <h3 className="flex self-center mb-4 align-bottom md:text-5xl text-2xl tracking-wider font-medium">
               Education
-              </h3>
+            </h3>
 
             <div className="relative flex flex-col md:flex-row flex-wrap">
               <div className="flex-3 md:self-center align-middle w-[200px] lg:text-3xl lg:w-[300px] md:p-4 text-2xl font-bold text-slate-500">
@@ -171,11 +174,15 @@ function Portfolio() {
 
         {/* skills / experience */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
-        <section id="experience" className="md:p-2 flex-1">
+          <section id="experience" className="md:p-2 flex-1">
             <div className="flex flex-row gap-4 my-4">
-              <img src={experienceImg} className="h-16 md:max-h-24" alt="education" />
+              <img
+                src={experienceImg}
+                className="h-16 md:max-h-24"
+                alt="education"
+              />
               <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
-              Experience
+                Experience
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
@@ -216,56 +223,68 @@ function Portfolio() {
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
           <section id="education" className="md:p-2 flex-1">
             <div className="flex flex-row gap-4 my-4">
-              <img src={skillsImg} className="h-16 md:max-h-24" alt="education" />
+              <img
+                src={skillsImg}
+                className="h-16 md:max-h-24"
+                alt="education"
+              />
               <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
                 Skills
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
-            <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
-              <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
+              <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
+                <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
                   <p className="text-green-600 md:text-slate-400">Core</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Python</p>
-                    <FaPython className="text-xl" />
+                    <FaPython className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Javascript</p>
-                    <IoLogoJavascript className="text-xl" />
+                    <IoLogoJavascript className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Node</p>
-                    <FaNodeJs className="text-xl" />
+                    <FaNodeJs className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Typescript</p>
-                    <SiTypescript className="text-xl" />
+                    <SiTypescript className="text-md md:text-xl" />
                   </div>
                 </div>
               </div>
 
               <div className="flex flex-col md:flex-row md:gap-2 flex-wrap">
-              <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
+                <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
                   <p className="text-green-600 md:text-slate-400">Web</p>
                 </div>
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Angular</p>
-                    <FaAngular className="text-xl" />
+                    <FaAngular className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>ReactJS</p>
-                    <GrReactjs className="text-xl" />
+                    <GrReactjs className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>ExpressJS</p>
-                    <SiExpress className="text-xl" />
+                    <SiExpress className="text-md md:text-xl" />
+                  </div>
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
+                    <p>TailwindCss</p>
+                    <SiTailwindcss className="text-md md:text-xl" />
+                  </div>
+                  <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
+                    <p>Material Design</p>
+                    <SiMaterialdesign className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
-                    <p>TailwindCss</p>
-                    <SiTailwindcss className="text-xl" />
+                    <p>HTML</p>
+                    <FaHtml5 className="text-md md:text-xl" />
                   </div>
                 </div>
               </div>
@@ -277,7 +296,7 @@ function Portfolio() {
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Solidity</p>
-                    <SiSolidity className="text-xl" />
+                    <SiSolidity className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Truffle</p>
@@ -298,19 +317,19 @@ function Portfolio() {
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
                   <p className="text-green-600 md:text-slate-400">Tools</p>
                 </div>
-                
+
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Docker</p>
-                    <GrDocker className="text-xl" />
+                    <GrDocker className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Git</p>
-                    <AiFillGithub className="text-xl" />
+                    <AiFillGithub className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Postman</p>
-                    <SiPostman className="text-xl" />
+                    <SiPostman className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Ganache</p>
@@ -325,11 +344,11 @@ function Portfolio() {
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>MongoDb</p>
-                    <SiMongodb className="text-xl" />
+                    <SiMongodb className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>PostgreSQL</p>
-                    <SiPostgresql className="text-xl" />
+                    <SiPostgresql className="text-md md:text-xl" />
                   </div>
                 </div>
               </div>
@@ -341,11 +360,11 @@ function Portfolio() {
                 <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>AWS</p>
-                    <FaAws className="text-xl" />
+                    <FaAws className="text-md md:text-xl" />
                   </div>
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2">
                     <p>Heroku</p>
-                    <SiHeroku className="text-xl" />
+                    <SiHeroku className="text-md md:text-xl" />
                   </div>
                 </div>
               </div>
@@ -354,154 +373,142 @@ function Portfolio() {
         </section>
 
         {/* Certifications / ratings / achievements */}
-        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
-          <section id="education" className="p-2 flex-1">
-            <img src={studyingImg} className="max-h-36" alt="education" />
-            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
-              Experience
-            </h3>
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
+          <section id="experience" className="md:p-2 flex-1">
+            <div className="flex flex-row gap-4 my-4">
+              <img
+                src={experienceImg}
+                className="h-16 md:max-h-24"
+                alt="education"
+              />
+              <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
+                Experience
+              </h3>
+            </div>
             <div className="flex flex-col gap-2 flex-wrap">
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
-                  Chandigarh University
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Bachelors of Engineering in CSE
-                </h5>
-                <h6 className="text-sm">
-                  CGPA:{" "}
-                  <span className="text-green-500 font-medium tracking-wider">
-                    6.9
+              <a
+                href="https://www.aiboost.in/"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg my-4 flex flex-row gap-2"
+              >
+                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                  <img
+                    src="https://aiboost.in/assets/img/logo-circle.png"
+                    className="bg-cover"
+                    alt="aiboost logo"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                    AiBoost
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                    https://www.aiboost.in/
                   </span>
-                </h6>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
+                    Founder | Full Stack Web3 Developer
+                  </h5>
 
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  Ludhiana Polytechnic College
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Diploma in Mechanical Engineering
-                </h5>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
-
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  St.Thomas, School
-                </h4>
-                <h5 className="text-green-500 font-medium">Secondary | CBSE</h5>
-                <p className="text-slate-300 font-light text-sm">
-                  2014 📍 Punjab, India
-                </p>
-              </div>
+                  <p className="text-slate-300 font-light text-sm">
+                    Aug 2021 - present
+                  </p>
+                </div>
+              </a>
             </div>
           </section>
         </section>
 
         {/* Projects */}
-        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
-          <section id="education" className="p-2 flex-1">
-            <img src={studyingImg} className="max-h-36" alt="education" />
-            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
-              Experience
-            </h3>
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
+          <section id="experience" className="md:p-2 flex-1">
+            <div className="flex flex-row gap-4 my-4">
+              <img
+                src={experienceImg}
+                className="h-16 md:max-h-24"
+                alt="education"
+              />
+              <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
+                Experience
+              </h3>
+            </div>
             <div className="flex flex-col gap-2 flex-wrap">
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
-                  Chandigarh University
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Bachelors of Engineering in CSE
-                </h5>
-                <h6 className="text-sm">
-                  CGPA:{" "}
-                  <span className="text-green-500 font-medium tracking-wider">
-                    6.9
+              <a
+                href="https://www.aiboost.in/"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg my-4 flex flex-row gap-2"
+              >
+                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                  <img
+                    src="https://aiboost.in/assets/img/logo-circle.png"
+                    className="bg-cover"
+                    alt="aiboost logo"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                    AiBoost
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                    https://www.aiboost.in/
                   </span>
-                </h6>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
+                    Founder | Full Stack Web3 Developer
+                  </h5>
 
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  Ludhiana Polytechnic College
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Diploma in Mechanical Engineering
-                </h5>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
-
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  St.Thomas, School
-                </h4>
-                <h5 className="text-green-500 font-medium">Secondary | CBSE</h5>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
+                  <p className="text-slate-300 font-light text-sm">
+                    Aug 2021 - present
+                  </p>
+                </div>
+              </a>
             </div>
           </section>
         </section>
 
         {/* Contact me */}
-        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 p-2 py-8">
-          <section id="education" className="p-2 flex-1">
-            <img src={studyingImg} className="max-h-36" alt="education" />
-            <h3 className="md:text-5xl text-3xl tracking-wider font-medium">
-              Experience
-            </h3>
+        <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
+          <section id="experience" className="md:p-2 flex-1">
+            <div className="flex flex-row gap-4 my-4">
+              <img
+                src={experienceImg}
+                className="h-16 md:max-h-24"
+                alt="education"
+              />
+              <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
+                Experience
+              </h3>
+            </div>
             <div className="flex flex-col gap-2 flex-wrap">
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-xl">
-                  Chandigarh University
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Bachelors of Engineering in CSE
-                </h5>
-                <h6 className="text-sm">
-                  CGPA:{" "}
-                  <span className="text-green-500 font-medium tracking-wider">
-                    6.9
+              <a
+                href="https://www.aiboost.in/"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg my-4 flex flex-row gap-2"
+              >
+                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                  <img
+                    src="https://aiboost.in/assets/img/logo-circle.png"
+                    className="bg-cover"
+                    alt="aiboost logo"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                    AiBoost
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                    https://www.aiboost.in/
                   </span>
-                </h6>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
+                    Founder | Full Stack Web3 Developer
+                  </h5>
 
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  Ludhiana Polytechnic College
-                </h4>
-                <h5 className="text-green-500 font-medium">
-                  Diploma in Mechanical Engineering
-                </h5>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
-
-              <div className="shadow-md hover:cursor-pointer bg-slate-600 filter backdrop-blur-lg p-4 rounded-lg my-4">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
-                  St.Thomas, School
-                </h4>
-                <h5 className="text-green-500 font-medium">Secondary | CBSE</h5>
-                <p className="text-slate-300 font-light text-sm">
-                  May 2018 - July 2021 📍 Punjab, India
-                </p>
-              </div>
+                  <p className="text-slate-300 font-light text-sm">
+                    Aug 2021 - present
+                  </p>
+                </div>
+              </a>
             </div>
           </section>
         </section>
