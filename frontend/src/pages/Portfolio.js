@@ -13,7 +13,14 @@ import { AiFillStar, AiOutlineArrowDown } from "react-icons/ai";
 import BlockRevealAnimation from "react-block-reveal-animation";
 
 // logo
-import { FaPython, FaAngular, FaAws, FaHtml5, FaNodeJs } from "react-icons/fa";
+import {
+  FaPython,
+  FaAngular,
+  FaAws,
+  FaHtml5,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
 import { IoLogoJavascript, IoMdDoneAll } from "react-icons/io";
 import {
   SiTypescript,
@@ -460,7 +467,8 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-sm sm:text-md md:text-lg">
-                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />36/25000 Global Rank in CodeChef July Long
+                  <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />
+                  36/25000 Global Rank in CodeChef July Long
                 </h4>
               </div>
             </div>
@@ -474,13 +482,14 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />Lead University Coding team
+                  <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />
+                  Lead University Coding team
                 </h4>
 
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />Worked on various projects for University
+                  <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />
+                  Worked on various projects for University
                 </h4>
-                
               </div>
             </div>
 
@@ -493,7 +502,8 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />represented Unversity in CAB meetings
+                  <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />
+                  represented Unversity in CAB meetings
                 </h4>
               </div>
             </div>
@@ -520,11 +530,11 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-sm sm:text-md md:text-lg">
-
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-                <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl animate-pulse" />Ratings 1903
+                  <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                  <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                  <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                  <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl animate-pulse" />
+                  Ratings 1903
                 </h4>
               </div>
             </div>
@@ -538,15 +548,15 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-                <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl animate-pulse" />Python
+                  <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                  <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                  <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                  <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                  <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl animate-pulse" />
+                  Python
                 </h4>
               </div>
             </div>
-
           </section>
         </section>
 
@@ -560,15 +570,15 @@ function Portfolio() {
                 alt="Projects"
               />
               <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
-              Projects
+                Projects
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
               <a
-                href="https://www.aiboost.in/"
+                href="http://www.aiboost.eu.org/"
                 target="_blank"
                 rel="noreferrer"
-                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg my-4 flex flex-row gap-2"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-2"
               >
                 <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
                   <img
@@ -579,19 +589,100 @@ function Portfolio() {
                 </div>
                 <div className="flex-1">
                   <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
-                    AiBoost
+                    AiBoost web3
+                    <span className="inline-block float-right text-green-500 text-sm animate-pulse">
+                      Web3 / Blockchain
+                    </span>
                   </h4>
                   <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
-                    https://www.aiboost.in/
+                    http://www.aiboost.eu.org/
                   </span>
-                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
-                    Founder | Full Stack Web3 Developer
+                  <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
+                    Web3 Application with Send Eth, Play Lottery, Stake Coin,
+                    Buy AiB coin functionality.
                   </h5>
-
-                  <p className="text-slate-300 font-light text-sm">
-                    Aug 2021 - present
+                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm my-2">
+                    <span className="text-slate-500 font-light text-xs">
+                      tech used:{" "}
+                    </span>
+                    ReactJS, ExpressJS, Solidity, Smart Contracts, TailwindCSS
                   </p>
                 </div>
+                
+              </a>
+
+              <a
+                href="http://www.aiboost.eu.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-2"
+              >
+                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                  <img
+                    src="https://aiboost.in/assets/img/logo-circle.png"
+                    className="bg-cover"
+                    alt="aiboost logo"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                    AiBoost web3
+                    <span className="inline-block float-right text-green-500 text-sm animate-pulse">
+                      Web3 / Blockchain
+                    </span>
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                    http://www.aiboost.eu.org/
+                  </span>
+                  <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
+                    Web3 Application with Send Eth, Play Lottery, Stake Coin,
+                    Buy AiB coin functionality.
+                  </h5>
+                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm my-2">
+                    <span className="text-slate-500 font-light text-xs">
+                      tech used:{" "}
+                    </span>
+                    ReactJS, ExpressJS, Solidity, Smart Contracts, TailwindCSS
+                  </p>
+                </div>
+                
+              </a>
+
+              <a
+                href="http://www.aiboost.eu.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-2"
+              >
+                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                  <img
+                    src="https://aiboost.in/assets/img/logo-circle.png"
+                    className="bg-cover"
+                    alt="aiboost logo"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                    AiBoost web3
+                    <span className="inline-block float-right text-green-500 text-sm animate-pulse">
+                      Web3 / Blockchain
+                    </span>
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                    http://www.aiboost.eu.org/
+                  </span>
+                  <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
+                    Web3 Application with Send Eth, Play Lottery, Stake Coin,
+                    Buy AiB coin functionality.
+                  </h5>
+                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm my-2">
+                    <span className="text-slate-500 font-light text-xs">
+                      tech used:{" "}
+                    </span>
+                    ReactJS, ExpressJS, Solidity, Smart Contracts, TailwindCSS
+                  </p>
+                </div>
+                
               </a>
             </div>
           </section>
