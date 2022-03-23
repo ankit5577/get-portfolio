@@ -601,7 +601,7 @@ function Portfolio() {
                     Web3 Application with Send Eth, Play Lottery, Stake Coin,
                     Buy AiB coin functionality.
                   </h5>
-                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
+                  <p className="text-green-600 font-normal tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
@@ -636,7 +636,7 @@ function Portfolio() {
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
                     Hospital Management & Medicine Recommendation System with muli-role functionality.
                   </h5>
-                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
+                  <p className="text-green-600 font-normal tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
@@ -671,7 +671,7 @@ function Portfolio() {
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
                     Generic eCommerce Web Application.
                   </h5>
-                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
+                  <p className="text-green-600 font-normal tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
@@ -706,7 +706,7 @@ function Portfolio() {
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
                     Algorithms aimed at suggesting relevant Movies to users
                   </h5>
-                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
+                  <p className="text-green-600 font-normal tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
