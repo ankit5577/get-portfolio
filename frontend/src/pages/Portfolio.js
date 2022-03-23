@@ -176,17 +176,17 @@ function Portfolio() {
           </section>
         </section>
 
-        {/* skills / experience */}
+        {/* experience */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 md:py-8">
-          <section id="experience" className="md:p-2">
-            <div className="flex flex-row gap-4 my-2 mt-4">
+        <section id="experience" className="md:p-2 flex-1">
+            <div className="flex flex-row gap-4 my-4">
               <img
                 src={experienceImg}
                 className="h-16 md:max-h-24"
-                alt="education"
+                alt="experience"
               />
               <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
-                Experience
+              Experience
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
@@ -223,15 +223,15 @@ function Portfolio() {
             </div>
           </section>
 
-          <section id="certifications" className="md:p-2">
-            <div className="flex flex-row gap-2">
+          <section id="certifications" className="md:p-2 flex-1">
+            <div className="flex flex-row gap-4 my-4">
               <img
                 src={certificationImg}
                 className="h-16 md:max-h-24"
-                alt="education"
+                alt="certifications"
               />
               <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
-                Certifications
+              Certifications
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
@@ -588,7 +588,7 @@ function Portfolio() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
+                  <h4 className="antialiased md:tracking-wider font-medium text-sm sm:text-xl md:text-2xl tracking-wide">
                     AiBoost web3
                     <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
                       Web3 / Blockchain
@@ -624,7 +624,7 @@ function Portfolio() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
+                  <h4 className="antialiased md:tracking-wider font-medium text-sm sm:text-xl md:text-2xl tracking-wide">
                     MedicoEye
                     <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
                       Web / Deep Learning
@@ -659,7 +659,7 @@ function Portfolio() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
+                  <h4 className="antialiased md:tracking-wider font-medium text-sm sm:text-xl md:text-2xl tracking-wide">
                     Overkart
                     <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
                       Web
@@ -694,14 +694,14 @@ function Portfolio() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
+                  <h4 className="antialiased md:tracking-wider font-medium text-sm sm:text-xl md:text-2xl tracking-wide">
                     Recommender System
                     <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
                       Deep Learning
                     </span>
                   </h4>
-                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
-                    http://github.com/ankit5577/recommender_system
+                  <span className="text-xs antialiased tracking-wide md:tracking-widest animate-pulse text-teal-500">
+                    github.com/ankit5577/recommender_system
                   </span>
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
                     Algorithms aimed at suggesting relevant Movies to users
