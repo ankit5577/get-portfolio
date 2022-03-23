@@ -578,9 +578,9 @@ function Portfolio() {
                 href="http://www.aiboost.eu.org/"
                 target="_blank"
                 rel="noreferrer"
-                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-2"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-1 sm:gap-2"
               >
-                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                <div className="hidden sm:block max-w-[60px] md:max-w-[100px] p-1 md:p-2">
                   <img
                     src="https://aiboost.in/assets/img/logo-circle.png"
                     className="bg-cover"
@@ -588,9 +588,9 @@ function Portfolio() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                  <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
                     AiBoost web3
-                    <span className="inline-block float-right text-green-500 text-sm animate-pulse">
+                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
                       Web3 / Blockchain
                     </span>
                   </h4>
@@ -601,7 +601,7 @@ function Portfolio() {
                     Web3 Application with Send Eth, Play Lottery, Stake Coin,
                     Buy AiB coin functionality.
                   </h5>
-                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm my-2">
+                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
@@ -615,9 +615,9 @@ function Portfolio() {
                 href="http://www.aiboost.eu.org/"
                 target="_blank"
                 rel="noreferrer"
-                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-2"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-1 sm:gap-2"
               >
-                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                <div className="hidden sm:block max-w-[60px] md:max-w-[100px] p-1 md:p-2">
                   <img
                     src="https://aiboost.in/assets/img/logo-circle.png"
                     className="bg-cover"
@@ -625,9 +625,9 @@ function Portfolio() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                  <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
                     AiBoost web3
-                    <span className="inline-block float-right text-green-500 text-sm animate-pulse">
+                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
                       Web3 / Blockchain
                     </span>
                   </h4>
@@ -638,7 +638,7 @@ function Portfolio() {
                     Web3 Application with Send Eth, Play Lottery, Stake Coin,
                     Buy AiB coin functionality.
                   </h5>
-                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm my-2">
+                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
@@ -652,9 +652,9 @@ function Portfolio() {
                 href="http://www.aiboost.eu.org/"
                 target="_blank"
                 rel="noreferrer"
-                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-2"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-1 sm:gap-2"
               >
-                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                <div className="hidden sm:block max-w-[60px] md:max-w-[100px] p-1 md:p-2">
                   <img
                     src="https://aiboost.in/assets/img/logo-circle.png"
                     className="bg-cover"
@@ -662,9 +662,9 @@ function Portfolio() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
+                  <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
                     AiBoost web3
-                    <span className="inline-block float-right text-green-500 text-sm animate-pulse">
+                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
                       Web3 / Blockchain
                     </span>
                   </h4>
@@ -675,7 +675,7 @@ function Portfolio() {
                     Web3 Application with Send Eth, Play Lottery, Stake Coin,
                     Buy AiB coin functionality.
                   </h5>
-                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm my-2">
+                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
@@ -684,6 +684,44 @@ function Portfolio() {
                 </div>
                 
               </a>
+
+              <a
+                href="http://www.aiboost.eu.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-1 sm:gap-2"
+              >
+                <div className="hidden sm:block max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                  <img
+                    src="https://aiboost.in/assets/img/logo-circle.png"
+                    className="bg-cover"
+                    alt="aiboost logo"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
+                    AiBoost web3
+                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
+                      Web3 / Blockchain
+                    </span>
+                  </h4>
+                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                    http://www.aiboost.eu.org/
+                  </span>
+                  <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
+                    Web3 Application with Send Eth, Play Lottery, Stake Coin,
+                    Buy AiB coin functionality.
+                  </h5>
+                  <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
+                    <span className="text-slate-500 font-light text-xs">
+                      tech used:{" "}
+                    </span>
+                    ReactJS, ExpressJS, Solidity, Smart Contracts, TailwindCSS
+                  </p>
+                </div>
+                
+              </a>
+
             </div>
           </section>
         </section>
