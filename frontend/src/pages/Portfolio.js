@@ -646,7 +646,7 @@ function Portfolio() {
               </a>
 
               <a
-                href="http://www.aiboost.eu.org/"
+                href="https://overkart.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-1 sm:gap-2"
@@ -660,29 +660,28 @@ function Portfolio() {
                 </div>
                 <div className="flex-1">
                   <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
-                    AiBoost web3
+                    Overkart
                     <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
-                      Web3 / Blockchain
+                      Web
                     </span>
                   </h4>
                   <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
-                    http://www.aiboost.eu.org/
+                  https://overkart.herokuapp.com/
                   </span>
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
-                    Web3 Application with Send Eth, Play Lottery, Stake Coin,
-                    Buy AiB coin functionality.
+                    Generic eCommerce Web Application.
                   </h5>
                   <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
-                    ReactJS, ExpressJS, Solidity, Smart Contracts, TailwindCSS
+                    Angular 12, ExpressJS, MongoDB, Heroku, NodeJs
                   </p>
                 </div>
               </a>
 
               <a
-                href="http://www.aiboost.eu.org/"
+                href="https://www.github.com/ankit5577/recommender_system"
                 target="_blank"
                 rel="noreferrer"
                 className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-1 sm:gap-2"
@@ -696,23 +695,22 @@ function Portfolio() {
                 </div>
                 <div className="flex-1">
                   <h4 className="antialiased md:tracking-wider font-medium text-md sm:text-xl md:text-2xl tracking-wide">
-                    AiBoost web3
+                    Recommender System
                     <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
-                      Web3 / Blockchain
+                      Deep Learning
                     </span>
                   </h4>
                   <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
-                    http://www.aiboost.eu.org/
+                    http://github.com/ankit5577/recommender_system
                   </span>
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
-                    Web3 Application with Send Eth, Play Lottery, Stake Coin,
-                    Buy AiB coin functionality.
+                    Algorithms aimed at suggesting relevant Movies to users
                   </h5>
                   <p className="text-green-600 font-semibold tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
                       tech used:{" "}
                     </span>
-                    ReactJS, ExpressJS, Solidity, Smart Contracts, TailwindCSS
+                    Python, NLTK, Scipy
                   </p>
                 </div>
                 
