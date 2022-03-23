@@ -521,10 +521,10 @@ function Portfolio() {
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-sm sm:text-md md:text-lg">
 
-                <AiFillStar className="inline  text-green-500 text-xl" />
-                <AiFillStar className="inline  text-green-500 text-xl" />
-                <AiFillStar className="inline  text-green-500 text-xl" />
-                <AiFillStar className="inline mr-2 text-green-500 text-xl" />Ratings 1903
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
+                <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl" />Ratings 1903
                 </h4>
               </div>
             </div>
@@ -538,11 +538,11 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <AiFillStar className="inline  text-green-500 text-xl" />
-                <AiFillStar className="inline  text-green-500 text-xl" />
-                <AiFillStar className="inline  text-green-500 text-xl" />
-                <AiFillStar className="inline  text-green-500 text-xl" />
-                <AiFillStar className="inline mr-2 text-green-500 text-xl" />Python
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
+                <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl" />Python
                 </h4>
 
               </div>
