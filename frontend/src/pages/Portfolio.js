@@ -176,9 +176,9 @@ function Portfolio() {
           </section>
         </section>
 
-        {/* experience */}
+        {/* experience / certification */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 md:py-8">
-        <section id="experience" className="md:p-2 flex-1">
+        <section id="experience" className="md:p-2">
             <div className="flex flex-row gap-4 my-4">
               <img
                 src={experienceImg}
@@ -223,7 +223,7 @@ function Portfolio() {
             </div>
           </section>
 
-          <section id="certifications" className="md:p-2 flex-1">
+          <section id="certifications" className="md:p-2">
             <div className="flex flex-row gap-4 my-4">
               <img
                 src={certificationImg}
@@ -603,7 +603,7 @@ function Portfolio() {
                   </h5>
                   <p className="text-green-600 font-normal tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
-                      tech used:{" "}
+                      Technology:{" "}
                     </span>
                     ReactJS, ExpressJS, Solidity, Smart Contracts, TailwindCSS, HardHat
                   </p>
@@ -638,7 +638,7 @@ function Portfolio() {
                   </h5>
                   <p className="text-green-600 font-normal tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
-                      tech used:{" "}
+                      Technology:{" "}
                     </span>
                     Angular 12, ExpressJS, MongoDB, AWS, NodeJS, Material Design
                   </p>
@@ -673,7 +673,7 @@ function Portfolio() {
                   </h5>
                   <p className="text-green-600 font-normal tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
-                      tech used:{" "}
+                      Technology:{" "}
                     </span>
                     Angular 12, ExpressJS, MongoDB, Heroku, NodeJs
                   </p>
@@ -708,7 +708,7 @@ function Portfolio() {
                   </h5>
                   <p className="text-green-600 font-normal tracking-wide text-xs md:text-sm mt-2">
                     <span className="text-slate-500 font-light text-xs">
-                      tech used:{" "}
+                      Technology:{" "}
                     </span>
                     Python, NLTK, Scipy
                   </p>
