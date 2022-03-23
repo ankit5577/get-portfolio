@@ -1,23 +1,21 @@
 import React from "react";
 import developerImg from "../assets/images/developer.svg";
 import studyingImg from "../assets/images/studying.svg";
-
+// import achievementsImg from "../assets/images/achievements.svg";
+import achievementsImg from "../assets/images/achievements1.svg";
 import experienceImg from "../assets/images/experience.svg";
 import certificationImg from "../assets/images/certification1.svg";
 import skillsImg from "../assets/images/skills.svg";
+import ratingsImg from "../assets/images/ratings.svg";
+import projectImg from "../assets/images/project_completed.svg";
+import project1Img from "../assets/images/projects.svg";
 
-import { AiOutlineArrowDown } from "react-icons/ai";
+import { AiFillStar, AiOutlineArrowDown } from "react-icons/ai";
 import BlockRevealAnimation from "react-block-reveal-animation";
 
 // logo
-import {
-  FaPython,
-  FaAngular,
-  FaAws,
-  FaHtml5,
-  FaNodeJs,
-} from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
+import { FaPython, FaAngular, FaAws, FaHtml5, FaNodeJs } from "react-icons/fa";
+import { IoLogoJavascript, IoMdDoneAll } from "react-icons/io";
 import {
   SiTypescript,
   SiMaterialdesign,
@@ -176,7 +174,7 @@ function Portfolio() {
         {/* skills / experience */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 md:py-8">
           <section id="experience" className="md:p-2">
-            <div className="flex flex-row gap-4 my-2">
+            <div className="flex flex-row gap-4 my-2 mt-4">
               <img
                 src={experienceImg}
                 className="h-16 md:max-h-24"
@@ -208,7 +206,8 @@ function Portfolio() {
                     https://www.aiboost.in/
                   </span>
                   <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
-                    Founder | Full Stack Web3 <span className="hidden md:inline-block">Developer</span> 
+                    Founder | Full Stack Web3{" "}
+                    <span className="hidden md:inline-block">Developer</span>
                   </h5>
 
                   <p className="text-slate-300 font-light text-sm">
@@ -239,13 +238,19 @@ function Portfolio() {
               >
                 <div className="">
                   <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
-                    IBM AI Engineering<span className="text-xs text-green-500"> - IBM</span>
+                    IBM AI Engineering
+                    <span className="text-xs text-green-500"> - IBM</span>
                   </h4>
                   <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
-                  https://www.coursera.org/
+                    https://www.coursera.org/
                   </span>
                   <h5 className="text-green-500 font-medium antialiased text-sm md:text-md">
-                    <span className="text-slate-500 text-xs">ID: </span>MHUSZPYR573T <span className="text-slate-300 font-light text-xs"> | June 15, 2020</span>
+                    <span className="text-slate-500 text-xs">ID: </span>
+                    MHUSZPYR573T{" "}
+                    <span className="text-slate-300 font-light text-xs">
+                      {" "}
+                      | June 15, 2020
+                    </span>
                   </h5>
                 </div>
               </a>
@@ -258,16 +263,25 @@ function Portfolio() {
               >
                 <div className="">
                   <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
-                    UI/UX Design <span className="hidden md:inline-block">Specialization</span><span className="text-xs text-green-500"> - CalArts</span>
+                    UI/UX Design{" "}
+                    <span className="hidden md:inline-block">
+                      Specialization
+                    </span>
+                    <span className="text-xs text-green-500"> - CalArts</span>
                   </h4>
                   <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
-                  https://www.coursera.org/
+                    https://www.coursera.org/
                   </span>
                   <h5 className="text-green-500 font-medium antialiased text-sm md:text-md">
-                    <span className="text-slate-500 text-xs">ID: </span>3ANLTHW9HCN5 <span className="text-slate-300 font-light text-xs"> | April 6, 2020</span>
+                    <span className="text-slate-500 text-xs">ID: </span>
+                    3ANLTHW9HCN5{" "}
+                    <span className="text-slate-300 font-light text-xs">
+                      {" "}
+                      | April 6, 2020
+                    </span>
                   </h5>
                 </div>
-              </a>  
+              </a>
             </div>
           </section>
         </section>
@@ -290,7 +304,7 @@ function Portfolio() {
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
                   <p className="text-green-600 md:text-slate-400">Core</p>
                 </div>
-                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-green-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Python</p>
                     <FaPython className="text-md md:text-xl" />
@@ -314,7 +328,7 @@ function Portfolio() {
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
                   <p className="text-green-600 md:text-slate-400">Web</p>
                 </div>
-                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-green-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Angular</p>
                     <FaAngular className="text-md md:text-xl" />
@@ -346,7 +360,7 @@ function Portfolio() {
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
                   <p className="text-green-600 md:text-slate-400">Blockchain</p>
                 </div>
-                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-green-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Solidity</p>
                     <SiSolidity className="text-md md:text-xl" />
@@ -371,7 +385,7 @@ function Portfolio() {
                   <p className="text-green-600 md:text-slate-400">Tools</p>
                 </div>
 
-                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-green-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>Docker</p>
                     <GrDocker className="text-md md:text-xl" />
@@ -394,7 +408,7 @@ function Portfolio() {
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
                   <p className="text-green-600 md:text-slate-400">Database</p>
                 </div>
-                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-green-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>MongoDb</p>
                     <SiMongodb className="text-md md:text-xl" />
@@ -410,7 +424,7 @@ function Portfolio() {
                 <div className="flex-3 md:self-center align-middle w-[170px] md:p-4 text-xl lg:text-3xl lg:w-[200px] font-bold text-slate-500">
                   <p className="text-green-600 md:text-slate-400">Cloud</p>
                 </div>
-                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-slate-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
+                <div className="flex-1 md:border-l flex flex-row gap-1 md:gap-2 flex-wrap md:border-green-600 p-1 md:p-2 text-slate-400 antialiased tracking-wide">
                   <div className="flex flex-row md:gap-2 text-md md:text-lg flex-wrap p-1 md:p-2 border-r border-slate-800">
                     <p>AWS</p>
                     <FaAws className="text-md md:text-xl" />
@@ -425,50 +439,118 @@ function Portfolio() {
           </section>
         </section>
 
-        {/* Certifications / ratings / achievements */}
+        {/* achievements / ratings */}
         <section className="snap-start flex flex-col h-screen flex-wrap gap-2 md:p-8 py-2 md:py-8">
-          <section id="experience" className="md:p-2 flex-1">
+          <section id="achievements" className="md:p-2 flex-1">
             <div className="flex flex-row gap-4 my-4">
               <img
-                src={experienceImg}
+                src={achievementsImg}
                 className="h-16 md:max-h-24"
-                alt="education"
+                alt="achievements"
               />
               <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
-                Experience
+                Achievements
               </h3>
             </div>
-            <div className="flex flex-col gap-2 flex-wrap">
-              <a
-                href="https://www.aiboost.in/"
-                target="_blank"
-                rel="noreferrer"
-                className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg my-4 flex flex-row gap-2"
-              >
-                <div className="max-w-[60px] md:max-w-[100px] p-1 md:p-2">
-                  <img
-                    src="https://aiboost.in/assets/img/logo-circle.png"
-                    className="bg-cover"
-                    alt="aiboost logo"
-                  />
-                </div>
-                <div className="flex-1">
-                  <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
-                    AiBoost
-                  </h4>
-                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
-                    https://www.aiboost.in/
-                  </span>
-                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
-                    Founder | Full Stack Web3 Developer
-                  </h5>
 
-                  <p className="text-slate-300 font-light text-sm">
-                    Aug 2021 - present
-                  </p>
-                </div>
-              </a>
+            <div className="relative flex flex-col md:flex-row flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[200px] lg:text-3xl lg:w-[240px] md:p-4 text-2xl font-bold text-slate-500">
+                <span className="text-slate-400">2021</span>
+              </div>
+              <div className="relative hidden md:block border-l border-slate-300">
+                <span className="absolute -left-[5px] top-0  px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+              </div>
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />36/25000 Global Rank in CodeChef July Long
+                </h4>
+              </div>
             </div>
+
+            <div className="relative my-4 flex flex-col md:flex-row flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[240px] font-bold text-slate-500">
+                <p className="text-slate-400">2020</p>
+              </div>
+              <div className="relative hidden md:block border-l border-slate-300">
+                <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+              </div>
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />Lead University Coding team
+                </h4>
+
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />Worked on various projects for University
+                </h4>
+                
+              </div>
+            </div>
+
+            <div className="relative flex flex-col md:flex-row flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[240px] font-bold text-slate-500">
+                <p className="text-slate-400">2019</p>
+              </div>
+              <div className="relative hidden md:block border-l border-slate-300">
+                <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+              </div>
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />represented Unversity in CAB meetings
+                </h4>
+              </div>
+            </div>
+          </section>
+
+          <section id="achievements" className="md:p-2 flex-1">
+            <div className="flex flex-row gap-4 my-4">
+              <img
+                src={ratingsImg}
+                className="h-16 md:max-h-24"
+                alt="ratings"
+              />
+              <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
+                Ratings
+              </h3>
+            </div>
+
+            <div className="relative flex flex-col md:flex-row flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[200px] lg:text-3xl lg:w-[240px] md:p-4 text-2xl font-bold text-slate-500">
+                <span className="text-slate-400">CodeChef</span>
+              </div>
+              <div className="relative hidden md:block border-l border-slate-300">
+                <span className="absolute -left-[5px] top-0  px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+              </div>
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                
+
+                <AiFillStar className="inline  text-green-500 text-xl" />
+                <AiFillStar className="inline  text-green-500 text-xl" />
+                <AiFillStar className="inline  text-green-500 text-xl" />
+                <AiFillStar className="inline mr-2 text-green-500 text-xl" />Ratings 1903
+                </h4>
+              </div>
+            </div>
+
+            <div className="relative my-4 flex flex-col md:flex-row flex-wrap">
+              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[240px] font-bold text-slate-500">
+                <p className="text-slate-400">HackerRank</p>
+              </div>
+              <div className="relative hidden md:block border-l border-slate-300">
+                <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+              </div>
+              <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <AiFillStar className="inline  text-green-500 text-xl" />
+                <AiFillStar className="inline  text-green-500 text-xl" />
+                <AiFillStar className="inline  text-green-500 text-xl" />
+                <AiFillStar className="inline  text-green-500 text-xl" />
+                <AiFillStar className="inline mr-2 text-green-500 text-xl" />Python
+                </h4>
+
+              </div>
+            </div>
+
           </section>
         </section>
 
@@ -477,12 +559,12 @@ function Portfolio() {
           <section id="experience" className="md:p-2 flex-1">
             <div className="flex flex-row gap-4 my-4">
               <img
-                src={experienceImg}
+                src={projectImg}
                 className="h-16 md:max-h-24"
-                alt="education"
+                alt="Projects"
               />
               <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
-                Experience
+              Projects
               </h3>
             </div>
             <div className="flex flex-col gap-2 flex-wrap">
