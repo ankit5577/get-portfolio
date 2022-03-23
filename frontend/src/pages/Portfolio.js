@@ -460,7 +460,7 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-sm sm:text-md md:text-lg">
-                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />36/25000 Global Rank in CodeChef July Long
+                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />36/25000 Global Rank in CodeChef July Long
                 </h4>
               </div>
             </div>
@@ -474,11 +474,11 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />Lead University Coding team
+                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />Lead University Coding team
                 </h4>
 
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />Worked on various projects for University
+                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />Worked on various projects for University
                 </h4>
                 
               </div>
@@ -493,7 +493,7 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />represented Unversity in CAB meetings
+                <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />represented Unversity in CAB meetings
                 </h4>
               </div>
             </div>
@@ -521,10 +521,10 @@ function Portfolio() {
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-sm sm:text-md md:text-lg">
 
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
-                <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl" />Ratings 1903
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl animate-pulse" />Ratings 1903
                 </h4>
               </div>
             </div>
@@ -538,13 +538,12 @@ function Portfolio() {
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
-                <AiFillStar className="inline  text-green-500 text-lg md:text-xl" />
-                <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl" />Python
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
+                <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl animate-pulse" />Python
                 </h4>
-
               </div>
             </div>
 
