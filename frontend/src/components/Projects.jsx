@@ -18,7 +18,7 @@ function Projects() {
                 Projects
               </h3>
             </div>
-            <div className="flex flex-col gap-2 flex-wrap">
+            <div className="flex flex-col gap-2 md:gap-4 flex-wrap">
               <a
                 href="http://www.aiboost.eu.org/"
                 target="_blank"

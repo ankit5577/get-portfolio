@@ -76,12 +76,12 @@ function ExperienceCertification() {
                   <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
                     https://www.coursera.org/
                   </span>
-                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md">
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md tracking-wide">
                     <span className="text-slate-500 text-xs">ID: </span>
                     MHUSZPYR573T{" "}
-                    <span className="text-slate-300 font-light text-xs">
+                    <span className="text-slate-300 font-light text-sm">
                       {" "}
-                      | June 15, 2020
+                      <span className='text-slate-500'>|</span> June 15, 2020
                     </span>
                   </h5>
                 </div>
@@ -104,12 +104,12 @@ function ExperienceCertification() {
                   <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
                     https://www.coursera.org/
                   </span>
-                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md">
+                  <h5 className="text-green-500 font-medium antialiased text-sm md:text-md tracking-wide">
                     <span className="text-slate-500 text-xs">ID: </span>
                     3ANLTHW9HCN5{" "}
-                    <span className="text-slate-300 font-light text-xs">
+                    <span className="text-slate-300 font-light text-sm">
                       {" "}
-                      | April 6, 2020
+                      <span className='text-slate-500'>|</span> April 6, 2020
                     </span>
                   </h5>
                 </div>
