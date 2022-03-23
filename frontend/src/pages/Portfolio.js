@@ -8,6 +8,8 @@ import AchievementsRatings from "../components/AchievementsRatings";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
+import { CgWebsite } from "react-icons/cg";
+
 function Portfolio() {
   return (
     <div
@@ -15,16 +17,16 @@ function Portfolio() {
                     bg-slate-900 font-sans text-gray-300 `}
     >
       {/* background */}
-      <div className="absolute filter bg-slate-700 p-8 rounded-full blur-sm shadow-xl bg-blend-screen opacity-20"></div>
-      <div className="absolute transform -translate-x-12 filter bg-pink-700 p-12 rounded-full blur-sm shadow-xl bg-blend-overlay opacity-10"></div>
-      <div className="absolute filter bg-slate-700 p-8 rounded-full blur-sm shadow-xl bg-blend-screen opacity-20"></div>
+      <div className="absolute filter bg-slate-700 p-16 rounded-full blur-sm shadow-xl bg-blend-screen opacity-20"></div>
+      <div className="absolute transform -translate-x-12 filter bg-pink-700 p-24 rounded-full blur-sm shadow-xl bg-blend-overlay opacity-10"></div>
+      <div className="absolute filter bg-white/3 p-8 rounded-full blur-sm shadow-xl bg-blend-screen"></div>
       <svg
         width="24"
         height="24"
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute bottom-0 right-20 md:h-60 md:w-64 h-36 w-36 text-zinc-600 filter blur-[2px] bg-blend-multiply"
+        className="absolute bottom-0 right-20 md:h-60 md:w-64 h-36 w-36 text-white/2 filter blur-[2px]"
       >
         <path d="M15 4H21V10H15V4Z" fill="currentColor" />
         <path
@@ -36,6 +38,8 @@ function Portfolio() {
           fill="currentColor"
         />
       </svg>
+
+      <CgWebsite className="absolute right-10 text-9xl filter text-slate-800 blur-sm bg-blend-screen" />
 
       <div
         className=" relative filter backdrop-blur-xl

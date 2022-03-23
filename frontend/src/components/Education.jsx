@@ -19,7 +19,7 @@ function Education() {
                 <span className="text-slate-400">2018 - 2021</span>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
-                <span className="absolute -left-[7px] -top-[2px] animate-ping px-[7px] py-[7px] bg-teal-400 rounded-full"></span>
+                <span className="absolute -left-[7px] -top-[2px] motion-safe:animate-ping px-[7px] py-[7px] bg-teal-400 rounded-full"></span>
                 <span className="absolute -left-[5px] top-0  px-[5px] py-[5px] bg-teal-700 rounded-full"></span>
               </div>
               <div className="md:ml-4 flex-1 p-4 bg-slate-700 shadow-xl rounded-lg backdrop-blur-2xl ">
@@ -44,7 +44,7 @@ function Education() {
                 <p className="text-slate-400">2014 - 2017</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
-                <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+                <span className="absolute -left-[5.5px] -top-[2px] motion-safe:animate motion-safe:animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">
@@ -61,7 +61,7 @@ function Education() {
                 <p className="text-slate-400">XXXX - 2014</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
-                <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+                <span className="absolute -left-[5.5px] -top-[2px] motion-safe:animate motion-safe:animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
                 <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-xl">

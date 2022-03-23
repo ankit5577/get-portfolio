@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.6679b4ab.css",
-    "main.js": "/static/js/main.8966d48b.js",
+    "main.css": "/static/css/main.ccf554b3.css",
+    "main.js": "/static/js/main.e9486eb7.js",
     "static/js/787.5fcff637.chunk.js": "/static/js/787.5fcff637.chunk.js",
+    "static/media/ankit_fullStack_web3_developer_2021.pdf": "/static/media/ankit_fullStack_web3_developer_2021.f3e9598786a369046f09.pdf",
     "static/media/system.svg": "/static/media/system.49c9e45707cb425f2c9a10b738b71642.svg",
     "static/media/reachme.svg": "/static/media/reachme.f53af1a88db1dff19c748e48f3bba6fe.svg",
     "static/media/studying.svg": "/static/media/studying.80fd9c2e08f19f15e45134ec93694505.svg",
@@ -13,15 +14,16 @@
     "static/media/project_completed.svg": "/static/media/project_completed.0b9f589811034d6009b3cb9e7b4ae6cd.svg",
     "static/media/certification1.svg": "/static/media/certification1.0194ab835689017824aeb9feaf991ebe.svg",
     "static/media/achievements1.svg": "/static/media/achievements1.d788e8e4e6edf9a052bf0ba8b4b49a22.svg",
+    "static/media/aiboost_web3.svg": "/static/media/aiboost_web3.773b881a4fb5eda982d7dd4d2953c654.svg",
     "static/media/logo_min.svg": "/static/media/logo_min.821ebee0700354fcf88b04a206441beb.svg",
     "static/media/logo_small.svg": "/static/media/logo_small.bc4d674d99312a5000c7d6060fb17747.svg",
     "index.html": "/index.html",
-    "main.6679b4ab.css.map": "/static/css/main.6679b4ab.css.map",
-    "main.8966d48b.js.map": "/static/js/main.8966d48b.js.map",
+    "main.ccf554b3.css.map": "/static/css/main.ccf554b3.css.map",
+    "main.e9486eb7.js.map": "/static/js/main.e9486eb7.js.map",
     "787.5fcff637.chunk.js.map": "/static/js/787.5fcff637.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6679b4ab.css",
-    "static/js/main.8966d48b.js"
+    "static/css/main.ccf554b3.css",
+    "static/js/main.e9486eb7.js"
   ]
 }

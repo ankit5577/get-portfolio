@@ -34,7 +34,7 @@ function ExperienceCertification() {
                   <h4 className="antialiased md:tracking-wider font-medium text-xl md:text-2xl tracking-wide">
                     AiBoost
                   </h4>
-                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                  <span className="text-xs antialiased tracking-widest motion-safe:animate-pulse text-teal-500">
                     https://www.aiboost.in/
                   </span>
                   <h5 className="text-green-500 font-medium antialiased text-sm md:text-md lg:text-lg">
@@ -73,7 +73,7 @@ function ExperienceCertification() {
                     IBM AI Engineering
                     <span className="text-xs text-green-500"> - IBM</span>
                   </h4>
-                  <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
+                  <span className="text-xs antialiased tracking-widest motion-safe:animate-pulse truncate text-teal-500">
                     https://www.coursera.org/
                   </span>
                   <h5 className="text-green-500 font-medium antialiased text-sm md:text-md tracking-wide">
@@ -101,7 +101,7 @@ function ExperienceCertification() {
                     </span>
                     <span className="text-xs text-green-500"> - CalArts</span>
                   </h4>
-                  <span className="text-xs antialiased tracking-widest animate-pulse truncate text-teal-500">
+                  <span className="text-xs antialiased tracking-widest motion-safe:animate-pulse truncate text-teal-500">
                     https://www.coursera.org/
                   </span>
                   <h5 className="text-green-500 font-medium antialiased text-sm md:text-md tracking-wide">

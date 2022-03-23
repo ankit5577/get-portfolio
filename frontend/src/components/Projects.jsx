@@ -2,6 +2,7 @@ import React from 'react'
 import projectImg from "../assets/images/project_completed.svg";
 import systemImg from "../assets/images/system.svg";
 import overkartImg from "../assets/images/overkart/logo_small.svg";
+import aiboostImg from "../assets/images/aiboost_web3.svg";
 import medicoeyeImg from "../assets/images/medicoeye/logo_min.svg";
 
 function Projects() {
@@ -25,21 +26,21 @@ function Projects() {
                 rel="noreferrer"
                 className="shadow-xl hover:cursor-pointer bg-slate-600/2 filter backdrop-blur-lg p-4 rounded-lg flex flex-row gap-1 sm:gap-2"
               >
-                <div className="hidden sm:block max-w-[60px] md:max-w-[100px] p-1 md:p-2">
+                <div className="hidden sm:block w-[60px] md:w-[100px] p-1 md:p-2">
                   <img
-                    src="https://aiboost.in/assets/img/logo-circle.png"
-                    className="bg-cover"
+                    src={aiboostImg}
+                    className="bg-cover w-full"
                     alt="aiboost logo"
                   />
                 </div>
                 <div className="flex-1">
                   <h4 className="antialiased md:tracking-wider font-medium text-sm sm:text-xl md:text-2xl tracking-wide">
                     AiBoost web3
-                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
+                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm motion-safe:animate-pulse">
                       Web3 / Blockchain
                     </span>
                   </h4>
-                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                  <span className="text-xs antialiased tracking-widest motion-safe:animate-pulse text-teal-500">
                     http://www.aiboost.eu.org/
                   </span>
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
@@ -71,11 +72,11 @@ function Projects() {
                 <div className="flex-1">
                   <h4 className="antialiased md:tracking-wider font-medium text-sm sm:text-xl md:text-2xl tracking-wide">
                     MedicoEye
-                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
+                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm motion-safe:animate-pulse">
                       Web / Deep Learning
                     </span>
                   </h4>
-                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                  <span className="text-xs antialiased tracking-widest motion-safe:animate-pulse text-teal-500">
                     https://www.medicoeye.in/
                   </span>
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
@@ -106,11 +107,11 @@ function Projects() {
                 <div className="flex-1">
                   <h4 className="antialiased md:tracking-wider font-medium text-sm sm:text-xl md:text-2xl tracking-wide">
                     Overkart
-                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
+                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm motion-safe:animate-pulse">
                       Web
                     </span>
                   </h4>
-                  <span className="text-xs antialiased tracking-widest animate-pulse text-teal-500">
+                  <span className="text-xs antialiased tracking-widest motion-safe:animate-pulse text-teal-500">
                   https://overkart.herokuapp.com/
                   </span>
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">
@@ -141,11 +142,11 @@ function Projects() {
                 <div className="flex-1">
                   <h4 className="antialiased md:tracking-wider font-medium text-sm sm:text-xl md:text-2xl tracking-wide">
                     Recommender System
-                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm animate-pulse">
+                    <span className="inline-block float-right text-green-500 text-xs sm:text-sm motion-safe:animate-pulse">
                       Deep Learning
                     </span>
                   </h4>
-                  <span className="text-xs antialiased tracking-wide md:tracking-widest animate-pulse text-teal-500">
+                  <span className="text-xs antialiased tracking-wide md:tracking-widest motion-safe:animate-pulse text-teal-500">
                     github.com/ankit5577/recommender_system
                   </span>
                   <h5 className="text-slate-300 font-light antialiased text-xs md:text-md lg:text-lg">

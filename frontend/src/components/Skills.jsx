@@ -7,9 +7,8 @@ import {
     FaAws,
     FaHtml5,
     FaNodeJs,
-    FaReact,
   } from "react-icons/fa";
-  import { IoLogoJavascript, IoMdDoneAll } from "react-icons/io";
+  import { IoLogoJavascript } from "react-icons/io";
   import {
     SiTypescript,
     SiMaterialdesign,

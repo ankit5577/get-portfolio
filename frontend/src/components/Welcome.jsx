@@ -29,18 +29,20 @@ function Welcome() {
           {/* actions */}
           <div className="flex">
             <div className="mx-auto">
-              <button className="text-sm md:text-lg  border border-slate-500 text-slate-400 rounded-full px-2 py-1 md:px-3 md:py-2 mr-2 transition duration-500 hover:shadow-md hover:shadow-green-800 hover:border-green-400 hover:text-green-500">
+              <a href={require('../assets/ankit_fullStack_web3_developer_2021.pdf')} rel="noreferrer" target={"_blank"} className="text-sm md:text-lg  border border-slate-500 text-slate-400 rounded-full px-2 py-1 md:px-3 md:py-2 mr-2 transition duration-500 hover:shadow-md hover:shadow-green-800 hover:border-green-400 hover:text-green-500">
                 Download CV
-              </button>
-              <button className="text-sm md:text-lg border border-slate-500 text-slate-400 rounded-full px-2 py-1 md:px-3 md:py-2  transition duration-500 hover:shadow-md hover:shadow-green-800 hover:border-green-400 hover:text-green-500">
+              </a>
+              <a href="#contact" className="text-sm md:text-lg border border-slate-500 text-slate-400 rounded-full px-2 py-1 md:px-3 md:py-2  transition duration-500 hover:shadow-md hover:shadow-green-800 hover:border-green-400 hover:text-green-500">
                 Contact Me<span className="text-green-400">.</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div className="min-h-[100px] animate animate-bounce">
+      <div className="min-h-[100px] motion-safe:animate motion-safe:animate-bounce">
+      <a href="#education">
         <AiOutlineArrowDown className="mx-auto text-4xl rounded-full bg-slate-800 p-2 border border-green-800 text-green-500 shadow-md shadow-green-900 " />
+      </a>
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ function AchievementsRatings() {
           </div>
           <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
             <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-sm sm:text-md md:text-lg">
-              <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />
+              <IoMdDoneAll className="inline mr-2 text-green-500 text-xl motion-safe:animate-pulse" />
               36/25000 Global Rank in CodeChef July Long
             </h4>
           </div>
@@ -40,16 +40,16 @@ function AchievementsRatings() {
             <p className="text-slate-400">2020</p>
           </div>
           <div className="relative hidden md:block border-l border-slate-300">
-            <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+            <span className="absolute -left-[5.5px] -top-[2px] motion-safe:animate motion-safe:animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
           </div>
           <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
             <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-              <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />
+              <IoMdDoneAll className="inline mr-2 text-green-500 text-xl motion-safe:animate-pulse" />
               Lead University Coding team
             </h4>
 
             <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-              <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />
+              <IoMdDoneAll className="inline mr-2 text-green-500 text-xl motion-safe:animate-pulse" />
               Worked on various projects for University
             </h4>
           </div>
@@ -60,11 +60,11 @@ function AchievementsRatings() {
             <p className="text-slate-400">2019</p>
           </div>
           <div className="relative hidden md:block border-l border-slate-300">
-            <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+            <span className="absolute -left-[5.5px] -top-[2px] motion-safe:animate motion-safe:animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
           </div>
           <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
             <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-              <IoMdDoneAll className="inline mr-2 text-green-500 text-xl animate-pulse" />
+              <IoMdDoneAll className="inline mr-2 text-green-500 text-xl motion-safe:animate-pulse" />
               represented Unversity in CAB meetings
             </h4>
           </div>
@@ -88,10 +88,10 @@ function AchievementsRatings() {
           </div>
           <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
             <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-sm sm:text-md md:text-lg">
-              <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-              <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-              <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-              <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl animate-pulse" />
+              <AiFillStar className="inline  text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
+              <AiFillStar className="inline  text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
+              <AiFillStar className="inline  text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
+              <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
               Ratings 1903
             </h4>
           </div>
@@ -102,15 +102,15 @@ function AchievementsRatings() {
             <p className="text-slate-400">HackerRank</p>
           </div>
           <div className="relative hidden md:block border-l border-slate-300">
-            <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
+            <span className="absolute -left-[5.5px] -top-[2px] motion-safe:animate motion-safe:animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
           </div>
           <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
             <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
-              <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-              <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-              <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-              <AiFillStar className="inline  text-green-500 text-lg md:text-xl animate-pulse" />
-              <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl animate-pulse" />
+              <AiFillStar className="inline  text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
+              <AiFillStar className="inline  text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
+              <AiFillStar className="inline  text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
+              <AiFillStar className="inline  text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
+              <AiFillStar className="inline mr-2 text-green-500 text-lg md:text-xl motion-safe:animate-pulse" />
               Python
             </h4>
           </div>
