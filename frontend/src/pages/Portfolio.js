@@ -445,7 +445,7 @@ function Portfolio() {
             <div className="flex flex-row gap-4 my-4">
               <img
                 src={achievementsImg}
-                className="h-16 md:max-h-24"
+                className="h-12 md:max-h-24"
                 alt="achievements"
               />
               <h3 className="flex self-center align-bottom md:text-5xl text-2xl tracking-wider font-medium">
@@ -454,32 +454,32 @@ function Portfolio() {
             </div>
 
             <div className="relative flex flex-col md:flex-row flex-wrap">
-              <div className="flex-3 md:self-center align-middle w-[200px] lg:text-3xl lg:w-[240px] md:p-4 text-2xl font-bold text-slate-500">
+              <div className="flex-3 md:self-center align-middle w-[200px] lg:text-3xl lg:w-[240px] md:p-4 text-xl font-bold text-slate-500">
                 <span className="text-slate-400">2021</span>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[5px] top-0  px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <h4 className="antialiased tracking-wide md:tracking-wider font-medium text-sm sm:text-md md:text-lg">
                 <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />36/25000 Global Rank in CodeChef July Long
                 </h4>
               </div>
             </div>
 
             <div className="relative my-4 flex flex-col md:flex-row flex-wrap">
-              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[240px] font-bold text-slate-500">
+              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-xl lg:text-3xl lg:w-[240px] font-bold text-slate-500">
                 <p className="text-slate-400">2020</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
                 <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />Lead University Coding team
                 </h4>
 
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
                 <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />Worked on various projects for University
                 </h4>
                 
@@ -487,14 +487,14 @@ function Portfolio() {
             </div>
 
             <div className="relative flex flex-col md:flex-row flex-wrap">
-              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-2xl lg:text-3xl lg:w-[240px] font-bold text-slate-500">
+              <div className="flex-3 md:self-center align-middle w-[200px] md:p-4 text-xl lg:text-3xl lg:w-[240px] font-bold text-slate-500">
                 <p className="text-slate-400">2019</p>
               </div>
               <div className="relative hidden md:block border-l border-slate-300">
                 <span className="absolute -left-[5.5px] -top-[2px] animate animate-pulse px-[5px] py-[5px] bg-teal-400 rounded-full"></span>
               </div>
               <div className="flex-1 md:ml-4 p-4 bg-slate-800/3 rounded-lg shadow-md backdrop-blur-md">
-                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-md md:text-lg">
+                <h4 className="antialiased tracking-wide md:tracking-wider  font-medium text-sm sm:text-md md:text-lg">
                 <IoMdDoneAll className="inline mr-2 text-green-500 text-xl" />represented Unversity in CAB meetings
                 </h4>
               </div>
